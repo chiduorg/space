@@ -105,7 +105,7 @@ function showUnquantified(entry){
   const stateURL=new URL(location.href);stateURL.searchParams.set('object',entry.id);history.replaceState(null,'',stateURL);updateViewLink();
   announce(entry);
 }
-function modelFor(entry){let model=visibleModels.get(entry.id);if(!model){model=models.createObject(entry);const size=new THREE.Box3().setFromObject(model).getSize(new THREE.Vector3());model.userData.frameSize={x:size.x,y:size.y,z:size.z};}visibleModels.delete(entry.id);visibleModels.set(entry.id,model);while(visibleModels.size>12){const key=visibleModels.keys().next().value;assetsApi.disposeObject(visibleModels.get(key));visibleModels.delete(key);}return model;}
+function modelFor(entry){let model=visibleModels.get(entry.id);if(!model){model=models.createObject(entry);if(!model.userData.frameSize){const size=new THREE.Box3().setFromObject(model).getSize(new THREE.Vector3());model.userData.frameSize={x:size.x,y:size.y,z:size.z};}}visibleModels.delete(entry.id);visibleModels.set(entry.id,model);while(visibleModels.size>12){const key=visibleModels.keys().next().value;assetsApi.disposeObject(visibleModels.get(key));visibleModels.delete(key);}return model;}
 function clearModels(){if(!viewport)return;for(const model of activeModels)viewport.world.remove(model);activeModels=[];}
 function updateScene(){
   if(!selected)return;
@@ -142,7 +142,17 @@ function updateScene(){
     candidates.slice(0,4).forEach((entry,i)=>{
       const ratio=entry.quantity.value/10**exponent;
       if(ratio>8||ratio<.0002)return;
-      const model=modelFor(entry);model.scale.setScalar(ratio*10);model.position.set(i===0?.6:-6.2,i===0?(innerWidth<600?-.35:1):-2.5,0);model.rotation.set(rotation.x,rotation.y,0);viewport.world.add(model);activeModels.push(model);
+      const model=modelFor(entry);model.scale.setScalar(ratio*10);
+      // 竖幅模型（DNA、病毒、人体）默认的 +1 偏移会把顶部推到栏外；按包围盒高度在安全区内居中。
+      const aspect=innerWidth>0&&innerHeight>0?innerWidth/innerHeight:1.6;
+      const halfV=10/aspect;
+      const half=(model.userData.frameSize?.y??2)*model.scale.x/2;
+      const topLimit=halfV-1.0,bottomLimit=-halfV+3.5;
+      const defaultY=i===0?(innerWidth<600?-.35:1):-1.9;
+      const safeY=i===0?((topLimit-bottomLimit)>2*half?(topLimit+bottomLimit)/2:Math.max(bottomLimit+half,Math.min(topLimit-half,defaultY))):defaultY;
+      // 移动端首屏：让主模型下沉，给左上角标题与描述留出阅读区。
+      const mobileDrop=innerWidth<600&&i===0?-5:0;
+      model.position.set(i===0?.6:-7.4,safeY+(i===0?(model.userData.offsetY||0):0)+mobileDrop,0);model.rotation.set(rotation.x,rotation.y,0);viewport.world.add(model);activeModels.push(model);
     });
     $('reference-label').lastChild.textContent=['earth','moon','sun','jupiter','saturn'].includes(entryKey(selected))?' 地表纹理映射 · 光照与相对位置为示意':' '+(selected.visual?.note||'结构与材质为说明性图景');$('scene-status').textContent='3D · 参考量值观察';
   }
@@ -162,7 +172,7 @@ function animateTo(target){
   function frame(now){const t=Math.min(1,(now-begin)/800),ease=t<.5?2*t*t:1-(-2*t+2)**2/2;setScale(start+(target-start)*ease,false);if(t<1)tourFrame=requestAnimationFrame(frame);}
   tourFrame=requestAnimationFrame(frame);
 }
-function preferredFrame(entry){const model=viewport?modelFor(entry):null,box=model?.userData.frameSize,aspect=innerWidth>0&&innerHeight>0?innerWidth/innerHeight:1.6;const fitted=box?Math.max(box.x/(innerWidth<600?1.28:.95),box.y*aspect/(innerWidth<600?1.5:1),1):1.82;const explicit=model?.userData.framePadding??entry.visual?.framePadding;const padding=explicit??(entryKey(entry)==='saturn'?.59:.26);return logSize(entry.quantity.value)+(explicit!=null?padding+(innerWidth<600?.08:0):Math.log10(innerWidth<600?fitted:Math.max(fitted,10**padding)));}
+function preferredFrame(entry){const model=viewport?modelFor(entry):null,box=model?.userData.frameSize,aspect=innerWidth>0&&innerHeight>0?innerWidth/innerHeight:1.6;const fitted=box?Math.max(box.x/(innerWidth<600?1.28:.95),box.y*aspect/(innerWidth<600?1.5:1),1):1.82;const explicit=model?.userData.framePadding??entry.visual?.framePadding;const padding=explicit??(entryKey(entry)==='saturn'?.59:.26);const floor=10**padding;const framed=Math.max(fitted,floor);return logSize(entry.quantity.value)+Math.log10(innerWidth<600?Math.max(fitted,floor):framed);}
 function select(entry,animate=false){if(document.body.classList.contains('is-entry-reading')){document.body.classList.remove('is-entry-reading');const fallback=$('canvas-fallback');if(fallback.dataset.entryNotice==='1'){fallback.hidden=true;delete fallback.dataset.entryNotice;}$('add-compare').hidden=false;$('scene-status').textContent='3D · 等比例观察';}selected=entry;current=entry;updateNotes();announce(entry);const frame=preferredFrame(entry);if(mode==='compare'){$('compare-a').value=entry.id;updateScene();}else if(animate){animateTo(frame);}else{setScale(frame,false);}}
 function stopTour(){cancelAnimationFrame(tourFrame);tourRunning=false;$('tour').innerHTML='开始尺度旅行 <span>↗</span>';}
 function startTour(){
