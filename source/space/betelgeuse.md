@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 1.39 × 10¹² m（特定研究采用值）
 related:
+  - mass.betelgeuse
+  - mass.sun
   - space.sun
   - space.sun_diameter
   - space.proxima-centauri
   - space.crab-nebula
-  - space.supergiant-star
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -30,6 +31,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html'
     publisher: NASA / NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: betelgeuse
   icon: "\U0001F534"
@@ -89,3 +94,5 @@ tags:
 ## 与其他尺度的关系
 
 1.39×10¹²米约合9.3 au，约为太阳直径的1000倍。[2] 把它放进太阳系，直径可延伸到木星轨道附近；但与它到地球的恒星际距离相比，这个尺寸仍极小。9.3 au也约等于日地距离的9.3倍，可容纳多颗内行星轨道。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

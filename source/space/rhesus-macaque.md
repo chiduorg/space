@@ -16,6 +16,7 @@ related:
   - space.chimpanzee
   - space.cat
   - space.rabbit
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Macaca mulatta
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/rhesus-monkey'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性恒河猴；量取从吻端到尾根的头体长，尾巴不计；不把尾长并入总长，也不采用四脚站立时的肩高。
 uncertainty: ADW 给出头体长 45–64 cm、尾长 19–32 cm；Britannica 给出 47–64 cm，并明确说不含 20–30 cm 的尾。雄性常见约 53 cm，本条取 0.55 m 略高于平均值但仍在范围内。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的恒河猴条目记录：身体长度 45–64 厘米，�
 ## 与其他尺度的关系
 
 0.55 米大约是成年人的三分之一，比家猫约 0.45 米的头体长长十厘米，却只有黑猩猩约 0.8–1.0 米的一半多一点。[1][2] 在灵长类里，恒河猴属于“半米级”，向上是猩猩和人，向下是小型猴类与小动物。放到 30 米蓝鲸的尺度上，它只占约五十五分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.8 纳秒，在时间轴上量级接近「纳秒」。[3]

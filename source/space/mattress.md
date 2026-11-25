@@ -17,6 +17,7 @@ related:
   - space.wardrobe
   - space.door
   - space.chair
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: ÅBYGDA foam mattress, firm/white, 150x200 cm — product measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ikea.com.hk/en/products/mattresses-and-accessories/mattresses/abygda-art-70481468'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 150×200 厘米规格的标准双人床垫；测量口径为床垫长边的标称长度，不含包边、床架、床头板和床尾板额外占用的长度。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 2 米约为成年人手长 20 厘米的 10 倍，也约为 A4 纸长边 29.7 厘米的 6.7 倍。它与约 2 米高的衣柜柜体相当，比 1.8 米的书架高 20 厘米。两个人并排睡在 150 厘米宽的床垫上，每人可分到约 75 厘米，比单人床的 90 厘米窄。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

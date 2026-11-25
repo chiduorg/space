@@ -17,6 +17,7 @@ related:
   - space.table
   - space.chair
   - space.coffee-cup
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: LACK coffee table, white, 118x78 cm — measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ikea.com/ee/en/p/lack-coffee-table-black-brown-00104291/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为客厅长方形茶几；测量口径为台面长边从一端外缘到另一端外缘的长度，不含桌腿外扩、边缘倒角和运输包装。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 118 厘米约为成年人手长 20 厘米的 5.9 倍，也约为 A4 纸长边 29.7 厘米的 4 倍。它比 1.8 米的餐桌短 62 厘米，比 70 厘米的 T 恤衣长长 48 厘米。摆在 2.1 米长的三人沙发前，两端各留约 45 厘米，刚好够人侧身走过。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.9 纳秒，在时间轴上量级接近「原子跃迁」。[3]

@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/fullerene'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: fullerene
   icon: ⚽
@@ -84,3 +88,5 @@ C₆₀处在“分子”与“纳米材料”的交界：它只有一个分子�
 ## 与其他尺度的关系
 
 0.7纳米的C₆₀处在“几个原子到几十个原子”的分子尺度：它比单个原子大，却比细胞和细胞器小得多。[1] 从原子、分子到纳米颗粒，C₆₀是一个清晰的路标。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

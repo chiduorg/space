@@ -31,6 +31,10 @@ sources:
       https://preview.sist.si/sist-preview/36631/c0883203ea25445c9992bb09343620c5/ISO-216-2007.pdf
     publisher: Slovenian Institute for Standardization (SIST) Preview
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 ISO 216 规定的 A4 标称裁剪尺寸；样本是办公用 80 g/m² 复印纸；测量口径为纸张长边，不是短边、对角线、单张厚度或整令纸垛高度。
 uncertainty: 标称长边 297 毫米，实际裁切产品存在毫米级公差；不同克重与纸种不改变 A4 的标称平面尺寸，但会改变厚度与单张质量。
 review:
@@ -76,3 +80,5 @@ A4 纸是 ISO 216 规定的 A 系列裁剪尺寸之一，常用于办公打印�
 ## 与其他尺度的关系
 
 297 毫米约为成年人手掌长度 18–19 厘米的 1.6 倍，也比一张银行卡 85.60 毫米的长边长约 3.5 倍。把 A4 长边与 A3 短边相比，两者同为 297 毫米，这正是对折关系。[2] 在办公桌上它是单页尺度，与建筑、城市尺度相差三到四个数量级。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

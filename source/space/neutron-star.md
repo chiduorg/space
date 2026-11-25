@@ -31,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/science/neutron-star'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: neutron-star
   icon: ⭐
@@ -88,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 20公里约为太阳直径1.39×10⁶米的七万分之一，却装着一到两个太阳质量，密度远高于白矮星。[2] 若与地球直径约12,742公里相比，中子星直径只有地球的约六百分之一。同样质量的白矮星半径可达数千公里，中子星则被压缩得更小。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

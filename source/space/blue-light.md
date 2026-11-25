@@ -3,6 +3,7 @@ id: space.blue-light
 title: 蓝光
 titleEn: Blue Light
 dimension: length
+variant: light
 category: 量子与粒子
 summary: 蓝光是人眼可辨的可见光短波端之一，常见波长范围为450至495纳米。本条取470纳米作为代表波长，量的是真空中的波长。
 quantity:
@@ -12,11 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 470 nm（蓝光代表波长）
 related:
+  - temperature.planck-temperature
+  - time.big-bang
   - space.visible-light
   - space.red-light
   - space.ultraviolet
   - space.atmosphere
-  - space.earth
 reviewStatus: reviewed
 sources:
   - title: blue
@@ -27,6 +29,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为蓝光波段的电磁波波长；介质取真空，空气中的差异很小；470纳米是代表值，不是蓝光范围端点。
 uncertainty: 蓝光范围常写为450–495纳米；本条取470纳米作为代表值。
 review:
@@ -39,12 +45,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "wave"
-  scene: "space.object"
-  caption: "蓝光约470纳米波长参照"
-  note: "色彩与波形为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: wave
+  scene: space.object
+  caption: 蓝光约470纳米波长参照
+  note: 色彩与波形为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 波长
 tags:
@@ -71,3 +77,5 @@ Britannica 把蓝光波长范围写成450至495纳米，并说明它是紫光之
 ## 与其他尺度的关系
 
 470纳米约为可见光范围中值550纳米的0.85倍，比红光700纳米短约三分之一。[1][2] 蓝光位于可见光短波侧，向外进入紫外，向内进入绿光。光谱分析中，蓝端与红端的差异被用来判断恒星温度与谱线移动。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

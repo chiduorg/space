@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Saturn-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: saturn
   icon: "\U0001FA90"
@@ -82,3 +86,5 @@ NASA事实表列体积平均半径58,232公里、1巴层赤道半径60,268公里
 ## 与其他尺度的关系
 
 116,464公里约为地球直径的9.14倍，约为木星平均直径的83%。与太阳直径约139万公里相比，土星约为其8.4%。它的平均密度687千克每立方米，低于水。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

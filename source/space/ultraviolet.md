@@ -28,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为紫外波段的电磁波波长；介质取真空，短波紫外在空气中会被氧和臭氧强烈吸收；100纳米是代表值。
 uncertainty: 紫外短波端有10纳米与4纳米等不同约定，生物效应分区另有UVA、UVB、UVC界线；本条取100纳米。
 review:
@@ -74,3 +78,5 @@ Britannica 把紫外线的波长写成约400纳米至10纳米，并说明部分�
 ## 与其他尺度的关系
 
 100纳米约为可见光最短波长400纳米的四分之一，也比X射线常用的1纳米长100倍。[1][2] 紫外线位于可见光与X射线之间，是原子外层电子跃迁的主要谱段，也是臭氧层形成与防护的核心波段。它既是晒伤与消毒手段，也是空间天文的重要观测窗口。大气层外的紫外观测可以避开水汽与臭氧吸收，工业固化与荧光激发也按波段选择光源。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

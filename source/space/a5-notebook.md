@@ -16,6 +16,7 @@ related:
   - space.sticky-note
   - space.laptop
   - space.pencil
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Dimensions Of A Series Paper Sizes
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.adobe.com/uk/creativecloud/design/discover/a5-format.html'
     publisher: Adobe
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为标准 A5 纸张装订的笔记本；量取合上时纸张长边，从纸边一端到另一端；封皮外凸、书脊厚度与装订件不计入。
 uncertainty: A5 标准为 148 × 210 mm，ISO 216 对 150–600 mm 尺寸给出 ±2 mm 公差；部分品牌封皮与纸页裁切为 145 × 210 mm，实测会略偏离 210 mm。
 review:
@@ -70,3 +75,7 @@ papersizes.org 的 A 系列尺寸表列出 A5 为 148 × 210 毫米，并说明�
 ## 与其他尺度的关系
 
 21 厘米与 A4 纸 21 厘米的短边完全相等，比 A4 长边 29.7 厘米短 8.7 厘米，约为 7.6 厘米便利贴边长的 2.8 倍。[1][2] 它比 17.78 厘米的铅笔长 3.2 厘米，也比 13.8 厘米的圆珠笔长 7.2 厘米。与 34.5 厘米的笔记本屏幕对角线相比，A5 本高度约为其 0.61 倍，正好能平放进大多数单肩包。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.70 纳秒，在时间轴上量级接近「纳秒」。[3]

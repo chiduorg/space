@@ -16,6 +16,8 @@ related:
   - space.kuiper-belt
   - space.eris
   - space.ceres
+  - time.solar-system
+  - mass.moon
 reviewStatus: reviewed
 sources:
   - title: Makemake
@@ -26,15 +28,23 @@ sources:
     url: 'https://www.britannica.com/place/Makemake'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为鸟神星固体表面；采用NASA页面所列平均半径约715公里加倍；不含稀薄大气，也不把约45.8天文单位的轨道半长轴当作本体尺寸。
-uncertainty: NASA给半径约715公里，直径约1430公里；Britannica给直径超过1400公里。远距离天体的直径由热辐射与形状拟合共同约束，1430公里是取整值，实际形状可能略呈椭球。
+uncertainty: >-
+  NASA给半径约715公里，直径约1430公里；Britannica给直径超过1400公里。远距离天体的直径由热辐射与形状拟合共同约束，1430公里是取整值，实际形状可能略呈椭球。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 打开NASA鸟神星页面与Britannica鸟神星条目，核对半径、直径、卫星与表面成分。
     - 明确1430公里是平均直径口径，不把最长轴或轨道距离当作本体尺寸。
-    - '2026-11-07 来源可访问性核对：https://science.nasa.gov/dwarf-planets/makemake/ 返回可用响应；https://www.britannica.com/place/Makemake（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07 来源可访问性核对：https://science.nasa.gov/dwarf-planets/makemake/
+      返回可用响应；https://www.britannica.com/place/Makemake（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -72,3 +82,5 @@ NASA鸟神星页面给出半径约715公里，加倍得直径约1430公里。[1]
 ## 与其他尺度的关系
 
 1430公里约为冥王星2376公里的0.60倍，约为阋神星2326公里的0.61倍，约为谷神星940公里的1.52倍，约为月球3474.8公里的0.41倍。[1][2] 与地球12742公里相比，它约为11%；在已知矮行星中属于中等大小。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

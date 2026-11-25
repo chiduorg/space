@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: '4,879 km（体积等效平均直径）'
 related:
+  - mass.mercury
+  - mass.earth
   - space.venus
   - space.earth
   - space.sun
   - space.solar-system
-  - space.moon_diameter
 reviewStatus: reviewed
 sources:
   - title: Mercury Fact Sheet
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Mercury-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为水星固体表面；采用NASA事实表的体积平均半径2,439.7公里加倍；不包含稀薄外逸层，也不按赤道或极方向单独取值。'
 uncertainty: '2,439.7公里乘二得4,879.4公里，取整为4,879公里；赤道直径约4,881公里、极直径约4,876.6公里，差别来自微小扁率而非测量矛盾。'
 review:
@@ -39,12 +44,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "水星 · 行星"
-  note: "球体、撞击坑纹理和光照为示意，非按比例，非观测重建；不复现真实表面细节与当日相位。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 水星 · 行星
+  note: 球体、撞击坑纹理和光照为示意，非按比例，非观测重建；不复现真实表面细节与当日相位。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -72,3 +77,5 @@ NASA事实表列出赤道半径2,440.5公里、极半径2,438.3公里和体积�
 ## 与其他尺度的关系
 
 4,879公里约为地球平均直径12,742公里的0.38倍，也约为月球直径3,474公里的1.4倍。[2] 它比木卫三的5,268公里小，但比冥王星的2,376公里大一倍多。水星轨道半长轴约0.387 au，与它的身体尺寸是两回事。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

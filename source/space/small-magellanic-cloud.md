@@ -16,6 +16,8 @@ related:
   - space.local-group
   - space.large-magellanic-cloud
   - space.light-year
+  - temperature.cmb
+  - time.big-bang
 reviewStatus: reviewed
 sources:
   - title: Magellanic Cloud
@@ -26,6 +28,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '采用主星系体约7,000光年的直径；不计入与大麦哲伦云共享的气体包层、麦哲伦流及潮汐剥离物质。'
 uncertainty: '7,000光年来自小于2°的角直径与约19万光年距离的换算，是概览值；不规则矮星系的外缘不锐利，不同波段和阈值会改变测得的角直径。'
 review:
@@ -40,12 +46,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "galaxy"
-  scene: "space.object"
-  caption: "小麦哲伦云 · 主星系体跨度"
-  note: "不规则星系轮廓、星点与气体着色为示意，未表现与大麦哲伦云共享的气体包层；范围只取主星系体概览直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: galaxy
+  scene: space.object
+  caption: 小麦哲伦云 · 主星系体跨度
+  note: 不规则星系轮廓、星点与气体着色为示意，未表现与大麦哲伦云共享的气体包层；范围只取主星系体概览直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -72,3 +78,5 @@ tags:
 ## 与其他尺度的关系
 
 7,000光年约为银河系盘直径的十四分之一，约为大麦哲伦云直径的一半，约为本星系群跨度1000万光年的千分之一。[1] 它比仙女座星系和银河系都小得多，却仍是本星系群中能被肉眼看见的少数星系之一。把7,000光年与19万光年并列时，一个描述天体大小，一个描述观测距离。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

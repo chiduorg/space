@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/plate-tectonics'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为大型构造板块的水平展布；测量口径为“典型宽度”的数量级参照，取5,000公里，不是任一板块的精确边界距离，也不是板块厚度。'
 uncertainty: '板块没有统一的标准宽度；USGS只说从数百到数千公里不等。5,000公里是为进入数轴比较而取的整数参照，实际板块可明显大于或小于它。'
 review:
@@ -74,3 +78,5 @@ tags:
 ## 与其他尺度的关系
 
 5,000公里约为地球平均半径6,371公里的78%，约为大陆地壳平均厚度30公里的167倍，也约为珠峰高程8,848.86米的565倍。它描述的是地表板块的横向延展，不是地球内部半径。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

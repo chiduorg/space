@@ -16,6 +16,7 @@ related:
   - space.dog
   - space.cat
   - space.rabbit
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Vulpes vulpes
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/red-fox-mammal'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性赤狐；量取从吻端到尾根的头体长，尾巴不计；不采用含尾总长、肩高或耳高。
 uncertainty: ADW 给出头体长 455–900 mm、尾长 300–555 mm；Britannica 给出全长 90–105 cm，其中尾占 35–40 cm，折算头体长约 50–70 cm。0.7 m 取在 ADW 范围的上部，代表较大的雄性。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的赤狐条目明确分开两项：头体长 455–900 毫
 ## 与其他尺度的关系
 
 0.7 米比家猫约 0.45 米的头体长长二十五厘米，却比 1.0 米的郊狼和 1.2 米的灰狼短不少，更只有 1.7 米人的四成左右。[1][2] 在犬科尺度上，赤狐属于“半米到一米”的小型成员，向上是郊狼、灰狼和大型家犬。放到 30 米蓝鲸的尺度上，它约占其四十三分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.3 纳秒，在时间轴上量级接近「纳秒」。[3]

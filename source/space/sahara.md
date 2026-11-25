@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '4,800 km（东西向跨度）'
 related:
+  - temperature.earth-mantle
+  - time.earth-age
   - space.earth
   - space.antarctica
   - space.amazon-river
   - space.nile
-  - space.atmosphere
-  - space.gobi
 reviewStatus: reviewed
 sources:
   - title: Dust Storm off the African West Coast
@@ -29,6 +29,10 @@ sources:
     url: 'https://kids.britannica.com/students/article/Sahara/276838'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为非洲北部撒哈拉沙漠；测量口径为从大西洋岸到红海的东西向陆地跨度，不是面积、南北宽度或某一年的沙漠边界长度。
 uncertainty: '沙漠边界是随降水与植被变化的过渡带；NASA给出约4,800公里，Britannica学生版给出约4,830公里，差异来自海岸线取点与圆整。'
 review:
@@ -41,13 +45,13 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "terrain"
-  variant: "desert"
-  color: "#d9b36c"
-  caption: "撒哈拉从大西洋岸到红海的东西向跨度"
-  note: "示意，非按比例，非观测重建；沙丘、岩台与边界色带为简化表示，不代表精确沙漠边界。"
-  scene: "space.object"
-  referenceAxis: "x"
+  template: terrain
+  variant: desert
+  color: '#d9b36c'
+  caption: 撒哈拉从大西洋岸到红海的东西向跨度
+  note: 示意，非按比例，非观测重建；沙丘、岩台与边界色带为简化表示，不代表精确沙漠边界。
+  scene: space.object
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -74,3 +78,5 @@ tags:
 ## 与其他尺度的关系
 
 4,800公里约为地球平均半径6,371公里的75%，也略大于南极洲约4,000公里的最大直径。它相当于尼罗河长度6,650公里的72%，但沙漠跨度是地表横向距离，河流长度是沿河道的一维路径，二者不能直接相比。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 1.89 × 10²³ m（超过2000万光年）
 related:
+  - mass.coma-cluster
+  - mass.observable-universe
   - space.galaxy-cluster
   - space.virgo-cluster
   - space.virgo-supercluster
   - space.dark-matter-halo
-  - space.milky-way
 reviewStatus: reviewed
 sources:
   - title: Hubble's sweeping view of the Coma Galaxy Cluster
@@ -47,12 +48,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "cluster"
-  scene: "space.object"
-  caption: "后发座星系团 · 成员分布概览"
-  note: "椭圆星系、旋涡星系图符与颜色为示意，未按真实成员位置排布；范围只表示星系团直径概览；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: cluster
+  scene: space.object
+  caption: 后发座星系团 · 成员分布概览
+  note: 椭圆星系、旋涡星系图符与颜色为示意，未按真实成员位置排布；范围只表示星系团直径概览；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:

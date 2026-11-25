@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 13.7 亿光年（2005年论文长度口径）
 related:
+  - mass.sloan-great-wall
+  - mass.observable-universe
   - space.great-wall
   - space.laniakea
   - space.observable-universe
   - space.virgo-supercluster
-  - space.hercules-corona-borealis-great-wall
 reviewStatus: reviewed
 sources:
   - title: 'A Map of the Universe, arXiv:astro-ph/0310571v2'
@@ -31,6 +32,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: sloan-great-wall
   icon: "\U0001F3DB"
@@ -87,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 13.7亿光年约合0.42 Gpc，约为银河系盘直径10万光年的1.37万倍（按概览值换算）。与可观测宇宙约930亿光年的直径相比，斯隆长城只占约1.5%。这些比较都建立在各自的长轴长度定义上，不能直接当成体积或质量排名。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

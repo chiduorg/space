@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 5.68 × 10²⁰ m（约6万光年）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.milky-way
   - space.andromeda-galaxy
   - space.sombrero-galaxy
   - space.galaxy-cluster
-  - space.light-year
-  - space.antennae-galaxies
 reviewStatus: reviewed
 sources:
   - title: The Whirlpool Galaxy
@@ -28,6 +28,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 采用NASA图像说明中主星系约6万光年的横向直径；伴星系NGC 5195、潮汐桥和潮汐尾不计入本页尺度。
 uncertainty: 6万光年来自NASA科普图像的概览描述，并非带误差棒的精密测量；盘边缘随示踪物变化，伴星系与相互作用结构会使“整个系统”的跨度大于主星系盘。
 review:
@@ -40,12 +44,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "galaxy"
-  scene: "space.object"
-  caption: "涡状星系 · 主盘跨度"
-  note: "旋臂、尘埃带与星点密度为示意，未表现伴星系NGC 5195和潮汐尾；范围只取主星系盘概览直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: galaxy
+  scene: space.object
+  caption: 涡状星系 · 主盘跨度
+  note: 旋臂、尘埃带与星点密度为示意，未表现伴星系NGC 5195和潮汐尾；范围只取主星系盘概览直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -71,3 +75,5 @@ tags:
 ## 与其他尺度的关系
 
 6万光年约为银河系盘直径的60%，约为仙女座星系盘直径的30%，约为本星系群跨度1000万光年的0.6%。它位于本星系群之外，因此不能拿它与本星系群成员的距离直接比较。它比星系团小两个数量级以上，却已包含数千亿颗恒星。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

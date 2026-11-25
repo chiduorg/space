@@ -16,6 +16,7 @@ related:
   - space.cattle
   - space.brown-bear
   - space.giraffe
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Alces alces
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/moose-mammal'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性驼鹿；量取从吻端到尾根的头体长，尾巴不计；不采用肩高、鹿角展开宽度或站立时头顶高度。
 uncertainty: ADW 给出雄性体长 2.4–3.1 m、雌性 2.3–3.0 m，并注明肩高可达 2.3 m；Britannica 给出肩高约 2 m、体重可达 600 kg。2.7 m 落在雄性体长范围内，代表中等偏大的成年雄性。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的驼鹿条目记录：雄性体重 360–600 千克、体
 ## 与其他尺度的关系
 
 2.7 米比 1.7 米的人长一米，比 2.2 米的棕熊和 2.2 米的孟加拉虎都长，也略长于 2.4 米的马。[1][2] 在陆生动物里，驼鹿站在“两米半到三米”这一档的上端，向上是非洲象和长颈鹿，向下是牛、狮和熊。放到 30 米蓝鲸的尺度上，它约占其十一分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 9.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

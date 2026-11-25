@@ -15,6 +15,7 @@ related:
   - space.cattle
   - space.human
   - space.brown-bear
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: American Bison (Bison bison) Fact Sheet
@@ -25,6 +26,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Bison_bison/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性北美野牛（Bison bison）；从吻端沿背部到尾根量取，尾巴不计；不含肩峰高度，也不含后腿站立时的总高。
 uncertainty: 圣迭戈动物园资料给出雄性体长 3,040–3,800 mm、尾长 330–910 mm；ADW 给出雄性 3.6–3.8 m、雌性 2.13–3.18 m，肩高 1.67–1.86 m。两处“体长”是否含尾并不完全一致；本条取 3.0 m，接近雄性下限，代表常见成年雄性而非最大个体。
 review:
@@ -69,3 +74,7 @@ tags:
 ## 与其他尺度的关系
 
 3.0 米的头体长约为 1.7 米成年人的 1.8 倍，是肩高 1.4 米家牛的两倍多，也接近 3.35 米非洲象的肩高。[1][2] 它约为 2.2 米棕熊头体长的 1.4 倍，但只有 30 米蓝鲸体长的十分之一。在北美草原上，野牛与家牛同属“一米级肩高”，头体长却进入“三米级”。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 10 纳秒，在时间轴上量级接近「原子跃迁」。[3]

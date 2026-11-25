@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 2.59 × 10¹³ m（约 173 au）
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.heliopause
   - space.solar-system
   - space.kuiper-belt
   - space.au
-  - space.light-year
 reviewStatus: reviewed
 sources:
   - title: Where is Voyager 1 - Math Problem
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/topic/Voyager-1'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为旅行者1号探测器与太阳的距离；采用NASA公开的约25.6亿公里、约173 au；不含地球与太阳之间约1 au 的位置差，也不把光行时当作距离。
 uncertainty: >-
   NASA材料给出约25.6×10⁹公里、约173
@@ -78,3 +83,5 @@ tags:
 ## 与其他尺度的关系
 
 2.59×10¹³米约为地球轨道半径1 au 的173倍，约为柯伊伯带典型范围30–50 au 的3至5倍。[1][2] 它约为最近恒星比邻星4.24光年的0.0027倍，即约0.27%。[2] 与行星直径相比，这个距离比海王星轨道30 au 远近5倍，但还远未达到奥尔特云的外缘。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

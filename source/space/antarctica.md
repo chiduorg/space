@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '4,000 km（大陆最大直径）'
 related:
+  - temperature.earth-mantle
+  - time.earth-age
   - space.earth
   - space.sahara
   - space.atmosphere
   - space.crust
-  - space.pacific-ocean
-  - space.moon
 reviewStatus: reviewed
 sources:
   - title: Antarctica
@@ -28,6 +28,10 @@ sources:
     url: 'https://www.pnra.aq/superfici-e-distanze'
     publisher: Programma Nazionale di Ricerche in Antartide
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为南极洲大陆及接地冰盖轮廓；测量口径为大陆最大直径，用作东西向跨度的近似，不是海岸线总长、冰盖面积或包含全部外围冰架的范围。
 uncertainty: '南极洲近似圆形且环绕南极点，“东西向跨度”没有唯一起止点；PNRA给出最大直径约4,000公里，若计入南极半岛尖端或外围冰架，不同量法会得到不同轮廓尺度。'
 review:
@@ -74,3 +78,5 @@ tags:
 ## 与其他尺度的关系
 
 4,000公里约为地球平均半径6,371公里的63%，也约为撒哈拉东西跨度4,800公里的83%。与珠峰高程8,848.86米相比，它约为后者的452倍；但这是水平跨度与垂直高度的比较，只说明量级差异。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -18,6 +18,8 @@ related:
   - space.cmb-surface
   - space.light-year
   - space.local-group
+  - mass.observable-universe
+  - temperature.cmb
 reviewStatus: reviewed
 sources:
   - title: Planck 2018 results. VI. Cosmological parameters
@@ -28,6 +30,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用Planck 2018基础ΛCDM的H0=67.4 km/s/Mpc，并取c=299792458
   m/s；哈勃半径是共动尺度c/H0，不是粒子视界、事件视界或可观测宇宙边缘。
@@ -44,12 +50,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "distance"
-  scene: "space.object"
-  caption: "哈勃半径 · c/H0 尺度示意"
-  note: "同心球与标尺为示意，未表示真实宇宙几何或观察者位置；范围只标示c/H0尺度，非宇宙边缘；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: distance
+  scene: space.object
+  caption: 哈勃半径 · c/H0 尺度示意
+  note: 同心球与标尺为示意，未表示真实宇宙几何或观察者位置；范围只标示c/H0尺度，非宇宙边缘；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -75,3 +81,5 @@ H0=67.4 km/s/Mpc约等于2.184×10⁻¹⁸ s⁻¹；取c=299792458 m/s，c/H0约
 ## 与其他尺度的关系
 
 145亿光年约为可观测宇宙半径470亿光年的31%，约为最后散射面共动距离的31%，约为银河系盘直径的145,000倍。[1] 它位于星系宇宙学尺度，向上连接粒子视界，向下连接超星系团。哈勃半径只是由H0设定的一把尺子，比较不同宇宙学距离时必须说明是共动距离、光度距离还是光行时距离。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

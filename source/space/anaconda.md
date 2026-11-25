@@ -16,6 +16,7 @@ related:
   - space.crocodile
   - space.shark
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Anaconda
@@ -26,6 +27,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Eunectes_murinus/'
     publisher: Animal Diversity Web, University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雌性亚马逊森蚺（Eunectes murinus，南方绿森蚺）；量取吻端到尾尖的全长，含躯干与尾；以蛇体自然伸展状态为准。
 uncertainty: Britannica 说多数成年个体不超过 5 m、平均约 5.5 m、最大可达 9 m；ADW 给出雌性平均约 6 m、雄性约 3 m，并提到 10–12 m 的历史记录但争议很大。本条取 6.0 m 对应 ADW 的雌性平均值，属大型成年雌性；更大纪录缺乏可靠复核。
 review:
@@ -70,3 +75,7 @@ Britannica 说多数成年森蚺不超过 5 米，平均约 5.5 米，最大可�
 ## 与其他尺度的关系
 
 6.0 米约为 3.5 个 1.7 米高的人首尾相接，比 4 米缅甸蟒长 2 米，也比 4 米尼罗河鳄长 2 米。[1][2] 它不到 30 米蓝鲸全长的五分之一。作为蛇类，6 米属于几米级的上段，体重在同长蛇类中偏大。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 20 纳秒，在时间轴上量级接近「原子跃迁」。[3]

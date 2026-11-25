@@ -28,6 +28,10 @@ sources:
     url: 'https://esahubble.org/images/heic0601a/'
     publisher: ESA / Hubble
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: orion-nebula
   icon: "\U0001F30C"
@@ -85,3 +89,5 @@ tags:
 ## 与其他尺度的关系
 
 3.78×10¹⁷米约合40光年，约为太阳系奥尔特云外缘100,000 au的25倍。[1] 它比蟹状星云10光年的遗迹大四倍，却只是银河系盘尺度的一小部分。它距地球约1,500光年，光从星云出发要1,500年才能到达。星云跨度与距离必须分开使用。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

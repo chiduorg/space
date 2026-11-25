@@ -16,6 +16,7 @@ related:
   - space.burj-khalifa
   - space.eiffel-tower
   - space.city
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Taipei 101 Mall — Audio Guide
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.great-towers.com/tower/taipei-101'
     publisher: World Federation of Great Towers
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为台北市信义区的台北 101 大楼；测量口径为建筑总高，从地面到塔顶，含塔尖与顶部结构；不是最高楼层、观景台高度或城市海拔。
 uncertainty: 来源登记总高 508 米；部分数据库给出建筑高度 508.2 米、到尖端 509.2 米，差异来自端点与精度，不能把 508 米当成可到达高度。
 review:
@@ -71,3 +76,7 @@ tags:
 ## 与其他尺度的关系
 
 508 米约为上海中心大厦 632 米的 80%，约为哈利法塔 828 米的 61%。它比埃菲尔铁塔 330 米高约 1.54 倍，也约为自由女神像含基座 92.99 米的 5.5 倍。[2] 在台北城市尺度中，它是一座显著地标，但高度仍不到一公里的量级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7 微秒，在时间轴上量级接近「微秒」。[3]

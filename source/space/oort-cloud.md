@@ -16,6 +16,8 @@ related:
   - space.heliopause
   - space.solar-system
   - space.light-year
+  - mass.earth
+  - temperature.venus-surface
 reviewStatus: reviewed
 sources:
   - title: Kuiper Belt and Oort Cloud (NASA lithograph)
@@ -27,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/Oort-cloud'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: oort-cloud
   icon: ☁
@@ -86,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 100,000 au约合1.58光年，不到比邻星4.26光年的一半。[1] 它比日球层顶121.6 au大约八百倍，也比柯伊伯带50 au大约两千倍。若把太阳系画成一座城市，奥尔特云才是外围最稀疏的郊区。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

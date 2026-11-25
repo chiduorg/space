@@ -28,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Apis_mellifera/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 体长为成虫头部前端到腹部末端的直线距离，不含翅膀展开的跨度和触角；以西方蜜蜂常见成体12 mm为参照，不是蜂王、雄蜂或所有蜂种的定值。
 uncertainty: >-
   Britannica给出约1.2 cm；ADW对西方蜜蜂给出体长范围10–20 mm。12
@@ -76,3 +80,5 @@ Britannica 的 Honeybee 条目把蜜蜂的体长记为约 1.2 厘米。[1] Anima
 ## 与其他尺度的关系
 
 12 毫米的蜜蜂约为家蚊体长的两三倍，比果蝇大，比蜘蛛小，约为人手宽度的五分之一。[1][2] 在尺度轴上，它位于“厘米级”昆虫带：向上是蝴蝶、蛙和小鼠，向下是蚊子、尘螨和花粉。用体长而非翼展来定位，才能让它与同类的昆虫条目公平比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

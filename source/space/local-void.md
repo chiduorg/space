@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 65 Mpc（约2.1亿光年，长轴概览）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.local-group
   - space.virgo-supercluster
   - space.laniakea
   - space.boots-void
-  - space.cosmic-web
 reviewStatus: reviewed
 sources:
   - title: Influence of the Local Void on measurements of the clustering dipole
@@ -29,6 +30,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 采用文献中本空洞长轴约60—70 Mpc的概览中值65 Mpc；本页量值指长轴尺度，不是球对称直径，也不是本星系群到空洞中心的距离。
 uncertainty: 本空洞的形状和尺寸未被精确测定，部分区域位于银河系盘面之后；文献给出较小的约35 Mpc分量和较大的60—70 Mpc长轴，取65 Mpc只是中间概览。
 review:
@@ -43,12 +48,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "field"
-  scene: "space.object"
-  caption: "本空洞 · 长轴尺度示意"
-  note: "空洞轮廓、星系点密度与观测遮挡带为示意，未按真实巡天数据绘制；范围表示长轴概览，非球对称直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: field
+  scene: space.object
+  caption: 本空洞 · 长轴尺度示意
+  note: 空洞轮廓、星系点密度与观测遮挡带为示意，未按真实巡天数据绘制；范围表示长轴概览，非球对称直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -74,3 +79,5 @@ tags:
 ## 与其他尺度的关系
 
 65 Mpc约为本星系群1000万光年跨度的21倍，约为牧夫座空洞80 Mpc直径的81%，约为拉尼亚凯亚约160 Mpc跨度的41%。[1] 它位于本星系群与室女座超星系团之间的过渡区域，是宇宙网中空洞层级的近邻样本。把它与星系团、超星系团比较时，应说明量值取的是长轴、直径还是成员分布范围。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

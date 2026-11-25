@@ -28,6 +28,10 @@ sources:
     url: 'https://www.toyota.com/corolla/'
     publisher: Toyota Motor North America
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为五座家用轿车；测量口径为车身前后保险杠最外端之间的纵向尺寸，不含后视镜、天线、拖挂装置与车顶行李架；不适用于 SUV、皮卡或加长车型。
 uncertainty: >-
@@ -76,3 +80,5 @@ tags:
 ## 与其他尺度的关系
 
 4.5 米约等于 2.2 扇标准门高，或 2.5 辆自行车首尾相接。[1][2] 一条 3.5 米宽的车道放不下两辆并排的 1.8 米宽轿车；标准泳池 50 米可容纳约 11 辆车首尾排列。与篮球场 28.65 米相比，车长约为其 16%。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

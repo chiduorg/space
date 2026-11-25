@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 490 m（平均直径）
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.ceres
   - space.vesta
   - space.earth
   - space.moon_diameter
-  - space.asteroid-belt
 reviewStatus: reviewed
 sources:
   - title: Asteroid Fact Sheet
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Bennu'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为贝努固体表面；采用平均直径0.49公里；不含其表面碎石、尘埃外逸层，也不把采样时的扰动算入形状。
 uncertainty: NASA事实表给出0.49公里，Britannica给出约490米，两者一致；贝努形状不规则，最长轴与平均直径有差异，0.49公里应理解为平均口径。
 review:
@@ -39,12 +44,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "贝努 · 近地小行星"
-  note: "不规则石块、表面碎石与光照为示意，非按比例，非观测重建；不复现真实形状与碎石分布。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 贝努 · 近地小行星
+  note: 不规则石块、表面碎石与光照为示意，非按比例，非观测重建；不复现真实形状与碎石分布。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -71,3 +76,5 @@ NASA小行星事实表列出贝努直径0.49公里，数据来自雷达观测、
 ## 与其他尺度的关系
 
 490米约为月球直径3,474公里的七千分之一，约为谷神星940公里的0.052%，也约为灶神星526公里的0.093%。[1][2] 它远小于任何行星，但比国际空间站109米长得多。贝努轨道半长轴约1.126 au，与地球轨道半径相近，因此成为采样返回的首选目标。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -16,6 +16,8 @@ related:
   - space.andromeda-galaxy
   - space.milky-way
   - space.galaxy-cluster
+  - mass.observable-universe
+  - temperature.cmb
 reviewStatus: reviewed
 sources:
   - title: 'Chandra :: Photo Album :: Antennae'
@@ -26,6 +28,10 @@ sources:
     url: 'https://esahubble.org/images/opo9734d/'
     publisher: ESA / Hubble
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 采用并合系统主体最大跨度约1×10⁵光年；不把两端潮汐尾的完整延伸和更外层气体计入。
 uncertainty: Chandra图像视场约6.1×10⁴光年，只覆盖并合核心；潮汐尾可延伸到更远，本页1×10²¹米是并合系统主体的概览最大跨度，不是单个星系直径。
 review:
@@ -34,18 +40,20 @@ review:
   notes:
     - 打开Chandra触须星系图像页，核对约3.4角分视场对应约6.1×10⁴光年、双核结构与并合描述。
     - 打开ESA/Hubble图像页，核对NGC 4038/4039名称、乌鸦座方向与约7500万光年距离；正文按1光年≈9.46×10¹⁵米换算。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://chandra.si.edu/photo/2010/antennae/；https://esahubble.org/images/opo9734d/），数值口径与正文一致。'
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://chandra.si.edu/photo/2010/antennae/；https://esahubble.org/images/opo9734d/），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "galaxy"
-  scene: "space.object"
-  caption: "触须星系 · 并合系统跨度"
-  note: "双核、尘埃带与潮汐尾为示意，未按真实观测结构绘制；范围表示并合系统主体的概览最大跨度，不含完整潮汐尾；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  variant: "merger"
-  referenceAxis: "x"
+  template: galaxy
+  scene: space.object
+  caption: 触须星系 · 并合系统跨度
+  note: 双核、尘埃带与潮汐尾为示意，未按真实观测结构绘制；范围表示并合系统主体的概览最大跨度，不含完整潮汐尾；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  variant: merger
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -72,3 +80,5 @@ tags:
 ## 与其他尺度的关系
 
 1×10²¹米约为银河系盘直径的1倍，约为仙女座星系盘的一半，约为室女座星系团跨度的0.9%。[1] 它小于星系群和星系团，却大于参与并合的任一单个星系盘。未来并合完成后，系统会变成一个更大的椭圆星系，那时的尺度口径又会不同。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

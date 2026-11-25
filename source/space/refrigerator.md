@@ -16,6 +16,7 @@ related:
   - space.chair
   - space.human
   - space.laptop
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: LG GN-M722HPHL Wide Top Freezer Refrigerator
@@ -26,6 +27,10 @@ sources:
     url: 'https://haieronline.ru/catalog/built-in/fridges_in/kholodilnik-hrf225wbru/'
     publisher: Haier
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为独立式家用冰箱；测量口径为地面到箱体顶部高度，不含可拆卸把手、包装与顶部预留散热空间；不适用于嵌入式、小型台下冰箱或商用冷柜。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1.8 米约等于自行车整车长度，也约为标准门高 2.032 米的 89%。[1] 它比餐椅整体高度 0.90 米高一倍，约为成人身高 1.75 米的 1.03 倍。两台 1.8 米高的冰箱叠放，会超过一层普通住宅的净高。普通住宅厨房台面高约 0.9 米，冰箱高度约为台面的两倍。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

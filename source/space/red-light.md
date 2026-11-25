@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 700 nm（红光代表波长）
 related:
+  - temperature.planck-temperature
+  - time.big-bang
   - space.visible-light
   - space.blue-light
   - space.infrared
   - space.atmosphere
-  - space.sun
 reviewStatus: reviewed
 sources:
   - title: red
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/light'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为红光波段的电磁波波长；介质取真空；700纳米是代表值，不是红光范围端点。
 uncertainty: 红光范围有620–750纳米与约700纳米等不同写法；本条取700纳米作为代表值。
 review:
@@ -39,12 +44,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "wave"
-  scene: "space.object"
-  caption: "红光约700纳米波长参照"
-  note: "色彩与波形为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: wave
+  scene: space.object
+  caption: 红光约700纳米波长参照
+  note: 色彩与波形为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 波长
 tags:
@@ -71,3 +76,5 @@ Britannica 把红光的波长范围写成620至750纳米，并把它定义为可
 ## 与其他尺度的关系
 
 700纳米约为头发直径的百分之一，也比蓝光470纳米长约1.5倍。[1][2] 红光位于可见光长波端，向外是红外，向内依次是橙、黄、绿、青、蓝、紫。远处星系的光谱线向长波端移动，因此红端常被用作判断宇宙膨胀的参照。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -2579,6 +2579,7 @@
     "title": "蓝光",
     "titleEn": "Blue Light",
     "dimension": "length",
+    "variant": "light",
     "category": "量子与粒子",
     "summary": "蓝光是人眼可辨的可见光短波端之一，常见波长范围为450至495纳米。本条取470纳米作为代表波长，量的是真空中的波长。",
     "quantity": {
@@ -3898,7 +3899,7 @@
       "note": "示意/非按比例/非观测重建，仅用于尺度直观参照。",
       "color": "#9bbcd7",
       "referenceAxis": "x",
-      "framePadding": 0.3
+      "framePadding": 0.42
     },
     "measureType": "尺寸",
     "tags": [
@@ -3966,7 +3967,7 @@
       "referenceAxis": "x",
       "caption": "法老蚁工蚁身体长度",
       "note": "身体主轴为参照；腿、触角伸展不计入体长，外形仅作工蚁辨认示意；图为示意，非按比例，非观测重建。",
-      "framePadding": 0.41,
+      "framePadding": 0.34,
       "sourceMeasure": "法老蚁工蚁约1/16英寸的体长参照",
       "scene": "space.object"
     },
@@ -6189,6 +6190,38 @@
     ]
   },
   {
+    "id": "space.sea-level-change",
+    "title": "20 世纪海平面上升：约 0.2 米的累计变化",
+    "titleEn": "20th-century sea-level rise at about 0.2 m",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "20 世纪全球平均海平面上升约 0.2 米，速率在后期加快；它不是单一年份的潮位，也不是所有海岸都相同的局部变化。",
+    "quantity": {
+      "value": 0.2,
+      "unit": "m",
+      "measure": "20 世纪全球平均海平面累计上升示例",
+      "approximate": true
+    },
+    "displayValue": "约 0.2 m（20 世纪累计海平面上升示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约0.2 m作20世纪全球平均累计上升示例；不同验潮站与重建数据集给出的值略有差异。",
+    "visual": {
+      "template": "hydrology",
+      "scene": "space.object",
+      "caption": "验潮站、卫星测高与海岸线的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#4d879f",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "长度变化",
+    "tags": [
+      "地球与地质",
+      "长度变化",
+      "地球系统"
+    ]
+  },
+  {
     "id": "space.sponge",
     "title": "成年海绵个体高度",
     "titleEn": "Adult Sponge Colony Height",
@@ -8263,6 +8296,38 @@
       "生命与人体",
       "尺寸",
       "生命"
+    ]
+  },
+  {
+    "id": "space.permafrost-active-layer",
+    "title": "多年冻土活动层：约 1 米的季节融冻",
+    "titleEn": "Permafrost active layer at about 1 m",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "多年冻土活动层是每年夏季融化、冬季重新冻结的近地表土层，厚度常以约 1 米作示例；它随气候、植被与土壤变化，不是冻土本身。",
+    "quantity": {
+      "value": 1,
+      "unit": "m",
+      "measure": "多年冻土活动层厚度示例",
+      "approximate": true
+    },
+    "displayValue": "约 1 m（多年冻土活动层示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约1 m作活动层厚度示例；实际厚度从几十厘米到数米，随纬度、植被、土壤与积雪变化。",
+    "visual": {
+      "template": "terrain",
+      "scene": "space.object",
+      "caption": "冻土活动层、永冻层与植被的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#8a7f68",
+      "referenceAxis": "y",
+      "framePadding": 0.3
+    },
+    "measureType": "厚度",
+    "tags": [
+      "地球与地质",
+      "厚度",
+      "地球系统"
     ]
   },
   {
@@ -11537,6 +11602,38 @@
     ]
   },
   {
+    "id": "space.ocean-mixed-layer",
+    "title": "海洋混合层：约 50 米的表层暖水",
+    "titleEn": "Ocean mixed layer at about 50 m",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "海洋混合层是海表附近因风、浪与对流而混合均匀的上层，厚度常以约 50 米作示例；它储存热量并影响海气交换，但随季节与纬度变化。",
+    "quantity": {
+      "value": 50,
+      "unit": "m",
+      "measure": "海洋混合层厚度示例",
+      "approximate": true
+    },
+    "displayValue": "约 50 m（海洋混合层厚度示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约50 m作混合层厚度示例；实际厚度从数米到数百米，随风、季节、纬度和盐度变化。",
+    "visual": {
+      "template": "hydrology",
+      "scene": "space.object",
+      "caption": "海表、混合层与温跃层的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#4d8ea8",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "厚度",
+    "tags": [
+      "地球与地质",
+      "厚度",
+      "地球系统"
+    ]
+  },
+  {
     "id": "space.swimming-pool",
     "title": "标准泳池长度",
     "titleEn": "Standard Swimming Pool Length",
@@ -12136,6 +12233,38 @@
     ]
   },
   {
+    "id": "space.antarctic-ice-thickness",
+    "title": "南极冰盖：约 1.9 公里的平均厚度",
+    "titleEn": "Antarctic ice sheet thickness at about 1.9 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "南极冰盖平均厚度约 1.9 公里，最厚处超过 4 公里；它储存了地球大部分淡冰，厚度变化通过冰流、降雪与底部融化缓慢调整。",
+    "quantity": {
+      "value": 1900,
+      "unit": "m",
+      "measure": "南极冰盖平均厚度示例",
+      "approximate": true
+    },
+    "displayValue": "约 1.9 km（南极冰盖平均厚度示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约1.9 km作南极冰盖平均厚度示例；最厚处超过4 km，边缘与冰流区显著变薄。",
+    "visual": {
+      "template": "terrain",
+      "scene": "space.object",
+      "caption": "冰穹、冰流与基岩地形的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#9fc0d6",
+      "referenceAxis": "y",
+      "framePadding": 0.3
+    },
+    "measureType": "厚度",
+    "tags": [
+      "地球与地质",
+      "厚度",
+      "地球系统"
+    ]
+  },
+  {
     "id": "space.deccan-traps",
     "title": "德干暗色岩累计厚度",
     "titleEn": "Deccan Traps Cumulative Thickness",
@@ -12207,6 +12336,38 @@
       "日常与人造",
       "尺寸",
       "建筑与地貌"
+    ]
+  },
+  {
+    "id": "space.greenland-ice-thickness",
+    "title": "格陵兰冰盖：约 3 公里的冰穹厚度",
+    "titleEn": "Greenland ice sheet thickness at about 3 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "格陵兰冰盖中部厚度可达约 3 公里，边缘较薄；它是北半球最大的冰体，质量变化对海平面有重要影响。",
+    "quantity": {
+      "value": 3000,
+      "unit": "m",
+      "measure": "格陵兰冰盖中部厚度示例",
+      "approximate": true
+    },
+    "displayValue": "约 3 km（格陵兰冰盖中部厚度示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约3 km作格陵兰冰盖中部厚度示例；边缘、冰流与峡湾附近显著变薄。",
+    "visual": {
+      "template": "terrain",
+      "scene": "space.object",
+      "caption": "格陵兰冰穹、冰流与峡湾的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#a8c5d8",
+      "referenceAxis": "y",
+      "framePadding": 0.3
+    },
+    "measureType": "厚度",
+    "tags": [
+      "地球与地质",
+      "厚度",
+      "地球系统"
     ]
   },
   {
@@ -12441,6 +12602,38 @@
     ]
   },
   {
+    "id": "space.troposphere-top",
+    "title": "对流层顶：约 12 公里的天气屋顶",
+    "titleEn": "Tropopause at about 12 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "对流层顶是对流层与平流层之间的边界，中纬度平均约 10—12 公里；12 公里是示例，赤道与极地、夏季与冬季的高度不同。",
+    "quantity": {
+      "value": 12000,
+      "unit": "m",
+      "measure": "中纬度对流层顶高度示例",
+      "approximate": true
+    },
+    "displayValue": "约 12 km（中纬度对流层顶示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "对象为中纬度对流层顶；取约12 km作高度示例；赤道可达16—18 km，极地可低至8 km。",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "云塔、对流层顶与平流层底部的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#7fa8c9",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "高度",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
+    ]
+  },
+  {
     "id": "space.halley",
     "title": "哈雷彗星彗核",
     "titleEn": "Halley's Comet Nucleus",
@@ -12639,6 +12832,70 @@
     ]
   },
   {
+    "id": "space.stratopause",
+    "title": "平流层顶：约 50 公里的臭氧屋顶",
+    "titleEn": "Stratopause at about 50 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "平流层顶位于约 50 公里高，是平流层与中间层的边界；臭氧层吸收紫外线使平流层温度随高度上升，到平流层顶附近达到局部最高。",
+    "quantity": {
+      "value": 50000,
+      "unit": "m",
+      "measure": "平流层顶高度示例",
+      "approximate": true
+    },
+    "displayValue": "约 50 km（平流层顶示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约50 km作平流层顶高度示例；实际高度随纬度与季节变化，约在45—55 km之间。",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "臭氧层、温度廓线与平流层顶的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#8aa6c7",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "高度",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
+    ]
+  },
+  {
+    "id": "space.mesopause",
+    "title": "中间层顶：约 85 公里的最冷边界",
+    "titleEn": "Mesopause at about 85 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "中间层顶位于约 85 公里高，是地球大气温度最低的区域之一；它标志中间层结束、热层开始，夜光云常出现在这一高度附近。",
+    "quantity": {
+      "value": 85000,
+      "unit": "m",
+      "measure": "中间层顶高度示例",
+      "approximate": true
+    },
+    "displayValue": "约 85 km（中间层顶示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约85 km作中间层顶高度示例；实际高度随纬度和季节变化，约在80—90 km。",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "夜光云、温度极小值与中间层顶的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#7d93b8",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "高度",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
+    ]
+  },
+  {
     "id": "space.atmosphere",
     "title": "地球大气层",
     "titleEn": "Atmosphere of Earth",
@@ -12669,6 +12926,38 @@
       "地球与地质",
       "尺寸",
       "行星与地理"
+    ]
+  },
+  {
+    "id": "space.aurora-altitude",
+    "title": "极光高度：约 100 公里的发光层",
+    "titleEn": "Aurora altitude at about 100 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "极光主要出现在约 90—150 公里高的热层下部，100 公里是常见示例；不同颜色来自不同气体与高度，不能用单一高度概括全部极光。",
+    "quantity": {
+      "value": 100000,
+      "unit": "m",
+      "measure": "极光主要发光高度示例",
+      "approximate": true
+    },
+    "displayValue": "约 100 km（极光发光高度示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约100 km作极光发光高度示例；极光可出现在约90–150 km，不同颜色与谱线对应不同高度。",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "磁力线、极光幕与热层大气的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#6fae9f",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "高度",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
     ]
   },
   {
@@ -12704,6 +12993,70 @@
       "地球与地质",
       "尺寸",
       "未定量值"
+    ]
+  },
+  {
+    "id": "space.gulf-stream-width",
+    "title": "墨西哥湾流：约 100 公里的宽度",
+    "titleEn": "Gulf Stream width at about 100 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "墨西哥湾流是北大西洋西部的强西边界流，宽度常以约 100 公里作示例；它把热量从热带向高纬输送，位置与强度随季节和涡旋变化。",
+    "quantity": {
+      "value": 100000,
+      "unit": "m",
+      "measure": "墨西哥湾流宽度示例",
+      "approximate": true
+    },
+    "displayValue": "约 100 km（墨西哥湾流宽度示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约100 km作湾流宽度示例；宽度随经度、季节与急流位置变化，常以100–200 km量级描述。",
+    "visual": {
+      "template": "hydrology",
+      "scene": "space.object",
+      "caption": "佛罗里达海峡、湾流与涡旋的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#4f8fa8",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "宽度",
+    "tags": [
+      "地球与地质",
+      "宽度",
+      "地球系统"
+    ]
+  },
+  {
+    "id": "space.kuroshio-width",
+    "title": "黑潮：约 100 公里的西边界急流",
+    "titleEn": "Kuroshio width at about 100 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "黑潮是北太平洋西部的强暖流，宽度常以约 100 公里作示例；它沿日本东岸北上，把热带热量与海水输送到中高纬。",
+    "quantity": {
+      "value": 100000,
+      "unit": "m",
+      "measure": "黑潮宽度示例",
+      "approximate": true
+    },
+    "displayValue": "约 100 km（黑潮宽度示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约100 km作黑潮宽度示例；宽度随断面、季节与流轴位置变化，常以100–200 km量级描述。",
+    "visual": {
+      "template": "hydrology",
+      "scene": "space.object",
+      "caption": "琉球群岛、黑潮与涡旋的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#477f9c",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "宽度",
+    "tags": [
+      "地球与地质",
+      "宽度",
+      "地球系统"
     ]
   },
   {
@@ -13068,6 +13421,38 @@
       "行星与太阳系",
       "尺寸",
       "行星与地理"
+    ]
+  },
+  {
+    "id": "space.thermosphere-top",
+    "title": "热层顶：约 600 公里的稀薄上层",
+    "titleEn": "Thermosphere top at about 600 km",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "热层顶约在 500—1000 公里之间，是热层与外逸层的过渡；600 公里是示例，国际空间站与许多低轨卫星都在热层内运行。",
+    "quantity": {
+      "value": 600000,
+      "unit": "m",
+      "measure": "热层顶高度示例",
+      "approximate": true
+    },
+    "displayValue": "约 600 km（热层顶示例）",
+    "reviewStatus": "reviewed",
+    "conditions": "取约600 km作热层顶示例；热层顶高度随太阳活动与地方时变化，常在500—1000 km之间。",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "低轨卫星、热层与逃逸层的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#6f86b0",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "高度",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
     ]
   },
   {
@@ -14487,6 +14872,38 @@
       "行星与地理"
     ],
     "conceptGroup": "uranus"
+  },
+  {
+    "id": "space.magnetopause",
+    "title": "磁层顶：约 10 个地球半径的太阳风边界",
+    "titleEn": "Magnetopause at about 10 Earth radii",
+    "dimension": "length",
+    "category": "地球与地质",
+    "summary": "磁层顶是地球磁场与太阳风相互作用的边界，向阳面平均约在 10 个地球半径处；它不是固定球面，会随太阳风压力与地磁活动伸缩。",
+    "quantity": {
+      "value": 63700000,
+      "unit": "m",
+      "measure": "向阳面磁层顶平均地心距离",
+      "approximate": true
+    },
+    "displayValue": "约 63,700 km（10 个地球半径）",
+    "reviewStatus": "reviewed",
+    "conditions": "取向阳面平均约10个地球半径作示例；地球半径取6371 km，实际边界随太阳风动压变化。",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "地球磁场、太阳风与磁层顶的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、地形与光效均为讲解服务。",
+      "color": "#6d8db7",
+      "referenceAxis": "x",
+      "framePadding": 0.3
+    },
+    "measureType": "距离",
+    "tags": [
+      "地球与地质",
+      "距离",
+      "地球系统"
+    ]
   },
   {
     "id": "space.solar-flare-size",

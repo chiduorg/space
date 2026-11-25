@@ -28,6 +28,10 @@ sources:
     url: 'https://www.fisica.unam.mx/karo/home/papers/ajp66s1998s231.pdf'
     publisher: American Journal of Physics / Universidad Nacional Autónoma de México
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取常温常压下的岩盐结构 NaCl；0.282 nm 是 Na–Cl 最近邻核间距，0.564 nm 是立方晶胞边长 a。
   二者不是同一个量；该值不是钠离子或氯离子的单独半径，也不是溶液中水合离子的间距。
@@ -80,3 +84,5 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.282 纳米与金刚石、硅等晶体中的原子间距同一量级，却比分子内的共价键长。[1][2] 它把“离子键长度”与“晶胞周期”连接起来：同样的 0.282 纳米重复两次，才构成 0.564 纳米长的晶胞边。继续阅读晶格间距与金刚石晶胞，可比较最近邻距离、晶格常数与晶胞边长的不同口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

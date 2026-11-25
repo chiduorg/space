@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/place/Kuiper-belt'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: kuiper-belt
   icon: ☄
@@ -88,3 +92,5 @@ NASA的科普图版把柯伊伯带写成约30–55 au，外边界约55 au。[1] 
 ## 与其他尺度的关系
 
 50 au约合7.48×10¹²米，是海王星轨道半长轴的1.7倍，但只有日球层顶121.6 au的约四成。奥尔特云外缘可达100,000 au，是它的两千倍。[1] 可见柯伊伯带只是行星区域外侧的一圈，而非太阳系的终点。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

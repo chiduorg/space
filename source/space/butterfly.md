@@ -28,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Danaus_plexippus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 翼展为两前翅向两侧展开后左右翅尖之间的最大直线距离，不是体长、翅面积或含翅缘毛的总宽；以帝王蝶95 mm为参照，不是所有蝴蝶的定值。
 uncertainty: >-
   Britannica给出帝王蝶平均翼展约90–100 mm；ADW给出该种翼展范围8.6–12.4 cm。95
@@ -76,3 +80,5 @@ Britannica 的 Monarch butterfly 条目给出帝王蝶的平均翼展约 90–10
 ## 与其他尺度的关系
 
 95 毫米的翼展接近一只手撑开的宽度，约为蜜蜂体长的八倍，比鸡蛋长轴更长，但远小于蛙和小鼠的体长。[1][2] 在尺度轴上，蝴蝶的翼展落在“厘米到十厘米”的过渡带：向上是手掌、球类和书本，向下是蜜蜂、果蝇和花粉。用翼展而不是体长比较，才符合人们观察蝴蝶的习惯，也便于识别帝王蝶这类以翅面斑纹著称的物种。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -17,6 +17,7 @@ related:
   - space.hat
   - space.tshirt
   - space.coffee-cup
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Unisex HEATTECH Lined Touchscreen Gloves — product measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.uniqlo.com/eu-ro/en/products/E470024-000/00'
     publisher: UNIQLO
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人 M 码冬季分指手套；测量口径为平铺时腕口外缘到中指尖的总长，不含袖口内衬、手指弯曲和佩戴时的拉伸。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 25 厘米约为成年人手长 20 厘米的 1.25 倍，也约为 T 恤衣长 70 厘米的三分之一。它比 9 厘米的咖啡杯口直径长约 2.8 倍，比 29 厘米的 42 码运动鞋外底略短。戴在成人手上时，腕口通常刚好盖住手腕，中指尖不会顶到指套末端。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.83 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -16,6 +16,7 @@ related:
   - space.frog
   - space.spider
   - space.ant
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Gecko
@@ -26,6 +27,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Hemidactylus_frenatus/'
     publisher: Animal Diversity Web, University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年常见家壁虎（Hemidactylus frenatus）；量取吻端到尾尖的全长，含尾；断尾个体按实际剩余长度测量，不补算再生前的长度。
 uncertainty: ADW 给出该种全长 75–150 mm，雄性大于雌性；Britannica 给出多数壁虎物种连尾长 1.2–6 英寸（约 3–15 cm）。本条取 0.15 m 即 150 mm，对应家壁虎范围上端，代表较大的成年个体；断尾会使读数明显偏小。
 review:
@@ -70,3 +75,7 @@ ADW 给出家壁虎全长 75–150 毫米，雄性通常大于雌性。[2] Brita
 ## 与其他尺度的关系
 
 0.15 米和 15 厘米普通蟾蜍体长相当，约为 8 厘米林蛙的两倍，也比 1.7 米成年人身高小一个数量级。[1][2] 它比 5 毫米蚂蚁长约 30 倍，却只有 33 厘米大棕蝠翼展的一半。家壁虎的体长也小于 15 厘米普通蟾蜍的典型上限，但两者身体比例完全不同。这个尺度是能停在手掌上的小型脊椎动物。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.50 纳秒，在时间轴上量级接近「纳秒」。[3]

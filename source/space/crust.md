@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/Earths-crust'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为大陆地壳；测量口径为平均厚度，采用USGS的约30公里，不是海洋地壳厚度、岩石圈厚度或山根处的局部厚度。
 uncertainty: >-
   USGS说大陆地壳平均约30公里、海洋地壳约5公里、大山之下可达100公里；Britannica把大陆地壳典型厚度写作约40公里。差异来自取样区域与“平均”“典型”的定义。
@@ -76,3 +80,5 @@ USGS说海洋地壳一般只有约5公里厚，大陆地壳平均约30公里，�
 ## 与其他尺度的关系
 
 30公里约为地球平均半径6,371公里的0.47%，约为珠峰高程8,848.86米的3.4倍，也约为马里亚纳海沟最大深度10,935米的2.7倍。它看似很厚，放到地球半径里却只是薄薄一层。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -16,6 +16,8 @@ related:
   - space.andromeda-galaxy
   - space.whirlpool-galaxy
   - space.local-group
+  - temperature.cmb
+  - time.big-bang
 reviewStatus: reviewed
 sources:
   - title: The Pinwheel Galaxy
@@ -26,26 +28,35 @@ sources:
     url: 'https://stsci-opo.org/STScI-01EVSQ5686E5ZFE1WRX0YP4TKV.pdf'
     publisher: NASA / Space Telescope Science Institute
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 采用可见光盘的概览直径约1.3×10⁵光年；不把伴星系、潮汐结构和暗物质晕计入本页尺度。
-uncertainty: M101的盘边缘随示踪物、观测波段和表面亮度阈值变化；NASA图像说明给出约1.7×10⁵光年，STScI教学材料按哈勃图像视场给出约9.5×10⁴光年，本页取中间量级，不能视为精密直径。
+uncertainty: >-
+  M101的盘边缘随示踪物、观测波段和表面亮度阈值变化；NASA图像说明给出约1.7×10⁵光年，STScI教学材料按哈勃图像视场给出约9.5×10⁴光年，本页取中间量级，不能视为精密直径。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 打开NASA“The Pinwheel Galaxy”图像说明，核对约2100万光年距离与约1.7×10⁵光年直径。
     - 打开STScI的M101教学材料，核对哈勃图像覆盖约9.5×10⁴光年的另一种口径；正文按1光年≈9.46×10¹⁵米换算并取量级概览。
-    - '2026-11-07 来源可访问性核对：https://stsci-opo.org/STScI-01EVSQ5686E5ZFE1WRX0YP4TKV.pdf 返回可用响应；https://www.nasa.gov/multimedia/imagegallery/image_feature_2265.html（429） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://stsci-opo.org/STScI-01EVSQ5686E5ZFE1WRX0YP4TKV.pdf
+      返回可用响应；https://www.nasa.gov/multimedia/imagegallery/image_feature_2265.html（429）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "galaxy"
-  scene: "space.object"
-  caption: "风车星系 · 可见光盘概览"
-  note: "旋臂、尘埃带与星点密度为示意，未表现伴星系和潮汐结构；范围只表示可见光盘的概览直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  variant: "face-on"
-  referenceAxis: "x"
+  template: galaxy
+  scene: space.object
+  caption: 风车星系 · 可见光盘概览
+  note: 旋臂、尘埃带与星点密度为示意，未表现伴星系和潮汐结构；范围只表示可见光盘的概览直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  variant: face-on
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -72,3 +83,5 @@ tags:
 ## 与其他尺度的关系
 
 1.3×10²¹米约为银河系盘直径10万光年的1.3倍，约为仙女座星系盘20万光年的0.65倍，约为室女座星系团1100万光年横向跨度的1.2%。[1][2] 它属于单个星系尺度，比星系群和星系团小两个数量级以上；与宇宙网纤维相比则小得更多。比较时应先确认对方数字是直径、距离还是成员分布范围。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

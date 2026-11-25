@@ -17,6 +17,7 @@ related:
   - space.running-shoe
   - space.leather-shoe
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Crew Socks — size & fit
@@ -27,6 +28,10 @@ sources:
     url: 'https://darntough.eu/pages/size-chart'
     publisher: Darn Tough
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人男款中筒袜（crew 长度）；测量口径为平铺时从袜口顶端到袜跟底部的纵向长度，不含袜尖向前伸出的脚趾部分和洗后缩水。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 26 厘米约为成年人手长 20 厘米的 1.3 倍，也约为 A4 纸短边 21 厘米的 1.2 倍。它比 27 厘米的 42 码皮鞋外底略短，比 9 厘米的咖啡杯口直径长约 2.9 倍。穿在成人脚上，袜口通常落在脚踝上方，不会高过小腿最粗处。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.87 纳秒，在时间轴上量级接近「纳秒」。[3]

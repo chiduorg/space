@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 121.6 au（旅行者1号穿越位置）
 related:
+  - mass.earth
+  - temperature.venus-surface
   - space.solar-system
   - space.kuiper-belt
   - space.oort-cloud
   - space.earth
-  - space.voyager-1
 reviewStatus: reviewed
 sources:
   - title: 'Gurnett & Kurth (2019), Plasma Densities Near and Beyond the Heliopause'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/heliopause'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: heliopause
   icon: "\U0001F6E1"
@@ -85,3 +90,5 @@ Gurnett与Kurth用旅行者1、2号的等离子体波仪器测量电子密度：
 ## 与其他尺度的关系
 
 日球层顶约121.6 au，约为海王星轨道半长轴30 au的四倍，却只是奥尔特云5,000–100,000 au范围的近端。[1] 与恒星际距离相比，它仍属太阳系内部；比邻星在4.26光年外，约合27万 au。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

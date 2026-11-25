@@ -30,6 +30,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Canis_lupus_familiaris/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 体长为躯干从肩关节到坐骨结节的体表距离，不含尾巴、头部前伸和后腿伸展；以Kars牧羊犬12月龄平均72 cm为参照，不是所有品种、年龄或个体的定值。
 uncertainty: >-
   PMC研究记录Kars牧羊犬12月龄平均体长72.04 cm、肩高69.34 cm；ADW记录家犬体重范围不足1 kg至70
@@ -78,3 +82,5 @@ PMC 上的一项研究测量了 Kars 牧羊犬幼犬在 12 月龄时的体表尺
 ## 与其他尺度的关系
 
 72 厘米的体长约为人手长度的三到四倍，比家猫长，比成年人的身高矮，远小于大象和长颈鹿的肩高。[1][2] 在尺度轴上，狗横跨“几十厘米到一米”的范围，是家养动物中体型最分散的一类。用“品种加年龄”限定体长，才能让它与猫、鼠、人等条目公平比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

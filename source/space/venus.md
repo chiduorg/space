@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: '12,104 km（体积等效平均直径）'
 related:
+  - mass.earth
+  - temperature.venus-surface
   - space.mercury
   - space.earth
   - space.mars
   - space.sun
-  - space.solar-system
 reviewStatus: reviewed
 sources:
   - title: Venus Fact Sheet
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Venus-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为金星固体表面；采用平均半径6,051.8公里加倍；不含厚约数十公里的二氧化碳大气，也不把云顶当作表面。'
 uncertainty: >-
   6,051.8公里乘二得12,103.6公里，取整为12,104公里；NASA事实表列赤道与极半径均为6,051.8公里，扁率显示为零，实际差异在测量精度以内。
@@ -40,12 +45,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "金星 · 行星"
-  note: "球体、云层纹理和光照为示意，非按比例，非观测重建；不复现真实云带与当日相位。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 金星 · 行星
+  note: 球体、云层纹理和光照为示意，非按比例，非观测重建；不复现真实云带与当日相位。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +78,5 @@ NASA事实表列出赤道半径、极半径和体积平均半径均为6,051.8公
 ## 与其他尺度的关系
 
 12,104公里约为地球直径的95%，比火星的6,779公里大近一倍，约为水星4,879公里的2.5倍。[1] 金星轨道半长轴约0.723 au，与地球的1 au 相差约0.28 au；这个距离差与行星直径是不同量纲的比较。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/house-mouse'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 体长为头体长，即鼻尖到尾根，不含尾巴、后肢和胡须；以家鼠8 cm为参照，不是幼鼠、含尾全长或其他鼠类的定值。
 uncertainty: >-
   ADW记录家鼠头体长65–95 mm；Britannica给出身体长度约6–11 cm，并说明尾巴长度大致与身体相当。8
@@ -76,3 +80,5 @@ Animal Diversity Web 对家鼠的记录是头体长 65–95 毫米。[1] Britann
 ## 与其他尺度的关系
 
 8 厘米的家鼠头体长约等于青蛙的体长，约为蜜蜂体长的六到七倍，比猫的体长小得多，约为人手长度的一半。[1][2] 在尺度轴上，它处在“几厘米到十厘米”的小型哺乳动物带：向上是猫、狗和人，向下是蛙、蜜蜂和果蝇。用头体长而不是含尾全长，才能让家鼠与其他动物条目在同一口径上比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

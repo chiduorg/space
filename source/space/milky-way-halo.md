@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 1.89 × 10²¹ m（约20万光年）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.milky-way
   - space.milky_way_disk
   - space.dark-matter-halo
   - space.galactic-center
-  - space.andromeda-distance
 reviewStatus: reviewed
 sources:
   - title: Guide to our Galaxy
@@ -47,12 +48,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "银河系晕 · 球状恒星晕概览"
-  note: "球状边界与星点分布为示意，未表现银盘、旋臂或暗物质晕的真实形状；范围只表示恒星晕半径对应的直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 银河系晕 · 球状恒星晕概览
+  note: 球状边界与星点分布为示意，未表现银盘、旋臂或暗物质晕的真实形状；范围只表示恒星晕半径对应的直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:

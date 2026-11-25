@@ -26,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/place/Sun'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: sun_diameter
   icon: ☀️
@@ -82,3 +86,5 @@ conceptGroup: sun
 ## 与其他尺度的关系
 
 1.39×10⁹米约合4.64光秒，约为地球直径的109倍。[2] 它比水星轨道半长轴5.79×10¹⁰米小约42倍，也比参宿四的模型直径1.39×10¹²米小约1000倍。太阳半径常用R☉作为恒星尺度单位；1 au约等于215个太阳半径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

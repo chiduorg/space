@@ -50,12 +50,13 @@ function configureMotion(){
 function renderCatalog(query='') {
   const results=query?allEntries.filter(e=>(e.title+' '+e.titleEn+' '+e.category).toLowerCase().includes(query.toLowerCase())):featured;
   $('catalog-label').textContent=query?'搜索结果':'精选探索';$('object-count').textContent=`${results.length} OBJECTS`;
+  $('object-list').classList.toggle('search-results', Boolean(query));
   $('object-list').replaceChildren();
   for(const entry of results){if(entry.quantity.value===null){const active=entry.id===current?.id;const link=document.createElement('a');link.className='object-button read-only-object'+(active?' active':'');link.href=articleUrl(entry);const glyph=document.createElement('span');glyph.className='object-glyph';glyph.textContent='◌';const title=document.createElement('span');title.textContent=entry.title;if(entry.titleEn)title.dataset.en=entry.titleEn;const state=document.createElement('span');state.className='order';state.textContent='仅阅读 ↗';state.dataset.en='Read only ↗';link.append(glyph,title,state);$('object-list').append(link);continue;}const active=entry.id===current?.id;const button=document.createElement('button');button.className='object-button'+(active?' active':'');button.dataset.id=entry.id;button.setAttribute('aria-pressed',String(active));
     const glyph=document.createElement('span');glyph.className='object-glyph';glyph.textContent=glyphs[featuredIds.indexOf(entryKey(entry))]||'◌';
     const title=document.createElement('span');title.textContent=entry.title;if(entry.titleEn)title.dataset.en=entry.titleEn;
     const order=document.createElement('span');order.className='order';order.textContent=`10${superscript(Math.floor(logSize(entry.quantity.value)))}`;
-    button.append(glyph,title,order);button.onclick=()=>{stopTour();select(entry,true);};$('object-list').append(button);
+    button.append(glyph,title,order);button.onclick=()=>{stopTour();if(innerWidth<=600){$('search').value='';$('search').blur();}select(entry,true);};$('object-list').append(button);
   }
   if(!results.length){const empty=document.createElement('p');empty.className='no-results';empty.textContent='没有找到这个尺度，试试“地球”或“细胞”。';$('object-list').append(empty);}
 }
@@ -142,7 +143,11 @@ function updateScene(){
     candidates.slice(0,4).forEach((entry,i)=>{
       const ratio=entry.quantity.value/10**exponent;
       if(ratio>8||ratio<.0002)return;
-      const model=modelFor(entry);model.scale.setScalar(ratio*10);
+      const model=modelFor(entry);
+      const part=entry.id.split('.').pop();
+      const mobileBoost=innerWidth<700?({'desk-lamp':1.4,backpack:1.2,'a5-notebook':1.25,'cruise-ship':1.25,'amino-acid':1.35,antibody:1.3}[part]||1):1;
+      const mobileLift=innerWidth<700&&mobileBoost>1?.28:0;
+      model.scale.setScalar(ratio*10*mobileBoost);
       // 竖幅模型（DNA、病毒、人体）默认的 +1 偏移会把顶部推到栏外；按包围盒高度在安全区内居中。
       const aspect=innerWidth>0&&innerHeight>0?innerWidth/innerHeight:1.6;
       const halfV=10/aspect;
@@ -152,7 +157,7 @@ function updateScene(){
       const safeY=i===0?((topLimit-bottomLimit)>2*half?(topLimit+bottomLimit)/2:Math.max(bottomLimit+half,Math.min(topLimit-half,defaultY))):defaultY;
       // 移动端首屏：让主模型下沉，给左上角标题与描述留出阅读区。
       const mobileDrop=innerWidth<600&&i===0?-5:0;
-      model.position.set(i===0?.6:-7.4,safeY+(i===0?(model.userData.offsetY||0):0)+mobileDrop,0);model.rotation.set(rotation.x,rotation.y,0);viewport.world.add(model);activeModels.push(model);
+      model.position.set(i===0?.6:-7.4,safeY+(i===0?(model.userData.offsetY||0):0)+mobileDrop+mobileLift,0);model.rotation.set(rotation.x,rotation.y,0);viewport.world.add(model);activeModels.push(model);
     });
     $('reference-label').lastChild.textContent=['earth','moon','sun','jupiter','saturn'].includes(entryKey(selected))?' 地表纹理映射 · 光照与相对位置为示意':' '+(selected.visual?.note||'结构与材质为说明性图景');$('scene-status').textContent='3D · 参考量值观察';
   }
@@ -200,7 +205,7 @@ async function showDetail(){
   if(body)for(const block of body.trim().split(/\n\s*\n/)){const isHeading=block.startsWith('## ');const el=document.createElement(isHeading?'h2':'p');el.textContent=isHeading?block.slice(3):block;container.append(el);}
   $('detail-dialog').showModal();
 }
-function showReadingMode(){document.body.classList.add('is-reading-mode');updateViewLink();$('canvas-fallback').hidden=false;$('canvas-fallback').querySelector('strong').textContent='图文观察模式';$('canvas-fallback').querySelector('p').textContent='条目、参考尺寸、比较与知识文章仍可使用。';$('scene-status').textContent='图文模式';motionOn=false;$('motion-toggle').disabled=true;}
+function showReadingMode(){document.documentElement.dataset.three='ready';document.body.classList.add('is-reading-mode');updateViewLink();$('canvas-fallback').hidden=false;$('canvas-fallback').querySelector('strong').textContent='图文观察模式';$('canvas-fallback').querySelector('p').textContent='条目、参考尺寸、比较与知识文章仍可使用。';$('scene-status').textContent='图文模式';motionOn=false;$('motion-toggle').disabled=true;}
 async function init3D(){
   if(initStarted||viewport||readingRequested()||document.body.classList.contains('is-entry-reading'))return;initStarted=true;
   try{
@@ -212,7 +217,7 @@ async function init3D(){
     models.decorateScene(viewport.scene);models.setModelInvalidation(()=>viewport.render());environment=environmentApi.createEnvironment(viewport.scene);
     await new Promise(resolve=>requestAnimationFrame(()=>setTimeout(resolve,0)));
     document.documentElement.dataset.three='ready';if(selected)select(selected);configureMotion();updateScene();
-  }catch(error){console.warn('3D视口不可用，切换图文模式',error);viewport?.dispose?.();viewport=null;showReadingMode();configureMotion();updateScene();}
+  }catch(error){console.warn('3D视口不可用，切换图文模式',error);document.documentElement.dataset.three='ready';viewport?.dispose?.();viewport=null;showReadingMode();configureMotion();updateScene();}
 }
 function schedule3D(){
   if(readingRequested()||document.body.classList.contains('is-entry-reading'))return;
@@ -245,7 +250,8 @@ async function init(){
     };
     $('close-notes').onclick=()=>$('notes-toggle').click();
     document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.body.classList.contains('notes-open')&&!$('detail-dialog').open)$('notes-toggle').click();});
-    $('search').oninput=()=>renderCatalog($('search').value.trim());$('scale-slider').oninput=e=>{stopTour();setScale(Number(e.target.value));};
+    $('search').oninput=()=>renderCatalog($('search').value.trim());$('search').onsearch=()=>renderCatalog($('search').value.trim());$('scale-slider').oninput=e=>{stopTour();setScale(Number(e.target.value));};
+    document.addEventListener('click',event=>{if(innerWidth>600||event.target.closest('.catalog'))return;const input=$('search');if(input.value.trim()){input.value='';input.blur();renderCatalog('');}});
     $('zoom-in').onclick=()=>{stopTour();setScale(exponent-.35);};$('zoom-out').onclick=()=>{stopTour();setScale(exponent+.35);};$('reset').onclick=()=>{rotation={x:.05,y:0};select(selected,true);};
     $('explore-mode').onclick=()=>setMode('explore');$('compare-mode').onclick=()=>setMode('compare');$('add-compare').onclick=()=>{$('compare-a').value=selected.id;setMode('compare');};
     for(const id of ['compare-a','compare-b'])$(id).onchange=updateScene;

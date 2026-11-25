@@ -15,6 +15,7 @@ related:
   - space.human
   - space.horse
   - space.elephant
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Camel
@@ -25,6 +26,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Camelus_dromedarius/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年单峰驼（Camelus dromedarius）；从吻端沿身体量到尾根，尾巴不计；不含驼峰顶点到地面的高度，也不采用肩高。
 uncertainty: 圣迭戈动物园给出单峰驼体长 2.2–3.4 m；ADW 给出雄性肩高 1.8–2.0 m、体重 400–600 kg，未直接给出头体长。本条取 3.0 m 作为成年个体的代表值，落在体长范围内偏上；品种、饲养条件与个体年龄会带来数十厘米差异。
 review:
@@ -69,3 +74,7 @@ tags:
 ## 与其他尺度的关系
 
 3.0 米的头体长约为 1.7 米成年人的 1.8 倍，也接近 3.35 米非洲象的肩高，比肩高 1.6 米的家马长约一倍。[1][2] 它只是 30 米蓝鲸体长的十分之一。在陆生哺乳动物里，单峰驼属于“三米级”，向上是河马、白犀与象，向下是牛、羊和人。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 10 纳秒，在时间轴上量级接近「原子跃迁」。[3]

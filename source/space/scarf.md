@@ -17,6 +17,7 @@ related:
   - space.tshirt
   - space.wardrobe
   - space.backpack
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Unisex HEATTECH Scarf — size
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.uniqlo.com/uk/en/products/E459731-000/00'
     publisher: UNIQLO
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人冬季针织围巾；测量口径为平铺后布身两端之间的长边长度，不含两端流苏、洗后缩水和佩戴时的打结折叠。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1.8 米约为成年人手长 20 厘米的 9 倍，也约为 A4 纸长边 29.7 厘米的 6.1 倍。它与书架高度约 1.8 米相当，比 T 恤衣长 70 厘米长 1.1 米。成人绕颈两圈后仍有较长的垂坠段，围巾两端通常垂到腰际附近。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

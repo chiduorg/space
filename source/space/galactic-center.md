@@ -16,6 +16,8 @@ related:
   - space.milky_way_disk
   - space.observable-universe
   - space.light-year
+  - mass.observable-universe
+  - temperature.cmb
 reviewStatus: reviewed
 sources:
   - title: The Galactic Centre — heic1606a

@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Neptune-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为海王星1巴气压层定义的球体；采用体积平均半径24,622公里加倍；不含稀薄环、磁层与云顶局部起伏。'
 uncertainty: >-
   24,622公里乘二得49,244公里；赤道半径24,764公里、极半径24,341公里，对应直径49,528公里与48,682公里，差异来自约0.017的扁率。
@@ -74,3 +78,5 @@ NASA事实表列出1巴层赤道半径24,764公里、极半径24,341公里和体
 ## 与其他尺度的关系
 
 49,244公里约为地球直径12,742公里的3.86倍，约为木星139,822公里的0.35倍。[1] 它比天王星小约3%，但比土星的116,464公里小一半以上。海王星轨道半长轴约30.07 au，是八大行星中最大的，约为地球轨道半径的30倍。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

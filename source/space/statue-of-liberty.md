@@ -16,6 +16,7 @@ related:
   - space.human
   - space.hand
   - space.shanghai-tower
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Statue of Liberty Facts
@@ -26,6 +27,10 @@ sources:
     url: 'https://home.nps.gov/stli/learn/historyculture/statue-statistics.htm'
     publisher: U.S. National Park Service
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为纽约港自由岛上的自由女神像；测量口径为雕像本体高度，即基座顶到火炬顶端，不含基座与地基；不是含基座总高、手长或食指长。
 uncertainty: >-
   管理机构给出雕像 151 英尺 1 英寸（46.05 米）、基座 154 英尺（46.93 米）、总高 305 英尺 1 英寸（92.99
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 46.05 米约为埃菲尔铁塔 330 米的 14%，约为上海中心大厦 632 米的 7.3%。它比成人 1.7 米身高高约 27 倍，也比足球场 105 米边线短约 56%。[1] 在纽约港的天际线中，它是一座中等高度的纪念碑，而不是最高建筑。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 154 纳秒，在时间轴上量级接近「微秒」。[3]

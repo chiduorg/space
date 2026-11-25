@@ -15,6 +15,7 @@ related:
   - space.elephant
   - space.cattle
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Hippopotamus amphibius
@@ -25,6 +26,10 @@ sources:
     url: 'https://ielc.libguides.com/sdzg/factsheets/hippopotamus'
     publisher: San Diego Zoo Wildlife Alliance Library
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性河马（Hippopotamus amphibius）；从吻端沿身体到尾根量取，尾巴不计；不含肩高，也不含水下姿态造成的弯曲。
 uncertainty: ADW 给出体长 209–505 cm（含约 35 cm 的尾），雄性最大约 505 cm、雌性约 345 cm；圣迭戈动物园资料给出雄性 300–505 cm、雌性 290–430 cm、尾约 40 cm。若严格排除尾，雄性上限约 4.7 m。本条取 4.0 m 作为大型成年雄性的代表值，不是种群平均。
 review:
@@ -69,3 +74,7 @@ Animal Diversity Web 的条目给出体长 209–505 厘米（含约 35 厘米�
 ## 与其他尺度的关系
 
 4.0 米的头体长约等于 3.35 米非洲象肩高的 1.2 倍，是肩高 1.4 米家牛的近三倍，也是 1.7 米成年人的 2.4 倍。[1][2] 它约为 30 米蓝鲸体长的七分之一。在陆生动物中，河马与白犀同处“四米级”，仅次于象，向下则是牛、马和人。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 13.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

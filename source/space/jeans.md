@@ -17,6 +17,7 @@ related:
   - space.shoe
   - space.running-shoe
   - space.leather-shoe
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Men's Slim Fit Jeans — product measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://levi.jp/products/005010000'
     publisher: Levi's Japan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人男款 32 英寸腰围、32 英寸内长的中腰直筒牛仔裤；测量口径为沿外侧缝从腰头外缘到下摆的裤长，不含卷边、改裤脚和洗后缩水。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 107 厘米约为成年人手长 20 厘米的 5.4 倍，也约为 A4 纸长边 29.7 厘米的 3.6 倍。它比 42 码运动鞋外底长约 29 厘米的 3.7 倍，比 T 恤衣长 70 厘米长约 1.5 倍。穿在 1.7 米高的人身上，裤长通常从腰到鞋面，裤脚会略有堆叠。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.6 纳秒，在时间轴上量级接近「原子跃迁」。[3]

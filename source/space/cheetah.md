@@ -16,6 +16,7 @@ related:
   - space.gray-wolf
   - space.human
   - space.cat
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Acinonyx jubatus
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/cheetah-mammal'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性猎豹；量取从吻端到尾根的头体长，尾巴不计；不采用含尾总长、肩高或奔跑时的伸展长度。
 uncertainty: ADW 给出体长 112–150 cm、尾长 60–80 cm；Britannica 给出的身体长度约 1.2 m、尾长 65–85 cm。1.3 m 落在 ADW 范围内，代表中等偏大的雄性，而不是全体平均值。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的猎豹条目明确区分身体长度与尾长：身体 1
 ## 与其他尺度的关系
 
 1.3 米比 1.7 米的人矮约四十厘米，比家猫约 0.45 米的头体长长近三倍，也略短于 1.4 米的豹和 1.0 米的郊狼。[1][2] 在猫科里，它低于虎、狮和豹，属于“一米级”猫科；放到 30 米蓝鲸的尺度上，约等于其二十三分之一。猎豹的“快”来自比例和结构，而不是把体长推到两米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

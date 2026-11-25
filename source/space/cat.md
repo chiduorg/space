@@ -28,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Felis_catus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 体长为鼻尖到尾根的直线距离，不含尾巴、后肢和胡须；以48 cm为常见家猫参照，不是所有品种、幼猫或含尾全长的定值。
 uncertainty: >-
   Britannica学生版给出家猫鼻尖至尾根46–51 cm、尾长25–38 cm；ADW给出平均长度76.2 cm但未明确是否含尾。本条取48
@@ -76,3 +80,5 @@ Britannica 的学生版 Cat 条目给出家猫鼻尖至尾根的体长 46–51 �
 ## 与其他尺度的关系
 
 48 厘米的家猫体长约为家鼠的六倍，比青蛙长得多，比狗短，约为人手长度的两到三倍。[1][2] 在尺度轴上，它位于“几十厘米”的小型哺乳动物带：向上是狗、象和建筑，向下是鼠、蛙和昆虫。明确不含尾的口径，能避免把猫的体长与含尾全长混在一起，也解释了同一只猫在不同资料里为何会读出不同长度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

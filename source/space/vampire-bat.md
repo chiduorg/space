@@ -15,6 +15,7 @@ related:
   - space.bat
   - space.rabbit
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Desmodus rotundus
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/animal/vampire-bat'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年吸血蝠（Desmodus rotundus）；从吻端沿身体到尾根量取，尾不计；不含翼展、后肢间的尾膜与耳长。
 uncertainty: ADW 给出头体长 70–90 mm、翼展 350–400 mm，并指出该种无尾、雌性通常大于雄性；Britannica 给出 7–9 cm、体重可变。两处范围一致；本条取 0.08 m，即 80 mm，位于范围中段，不代表最大个体。
 review:
@@ -69,3 +74,7 @@ Animal Diversity Web 的条目写明头体长通常 70–90 毫米、翼展 350�
 ## 与其他尺度的关系
 
 0.08 米的头体长约为 0.33 米大棕蝠翼展的四分之一，是 0.40 米家兔头体长的五分之一，也只有 1.7 米成年人高度的二十一分之一。[1][2] 与 30 米蓝鲸相比，它约为蓝鲸体长的三百七十五分之一。在哺乳动物尺度上，吸血蝠落在“几厘米级”，与小鼠和蜂鸟相近。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.27 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -30,6 +30,10 @@ sources:
       https://www.nasa.gov/international-space-station/integrated-truss-structure/
     publisher: NASA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为国际空间站（ISS）的综合桁架结构；测量口径为桁架沿长轴的长度 94 米，不是太阳翼展开后的总跨度 109 米、加压舱长度 67
   米或站体端到端总长；不适用于其他空间站。
@@ -81,3 +85,5 @@ NASA“Station Facts”页在尺寸与质量表中列出：桁架长度 310 英�
 ## 与其他尺度的关系
 
 94 米略短于足球场 105 米边线，约为波音 747-8 翼展 68.4 米的 1.4 倍，也约为大型邮轮 365 米船长的 26%。[1] 与地球同步轨道相比，空间站处于低地球轨道，二者不在同一量级。尺度比较时必须先确认量的是骨架、翼展还是轨道高度，否则会把 94 米与 109 米混为一谈。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -28,6 +28,10 @@ sources:
     url: 'https://www.apple.com/macbook-air/compare/'
     publisher: Apple Inc.
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 Apple MacBook Air 13 英寸（M5）机型；测量口径为显示屏可视区域对角线，不含边框、摄像头凹口与外壳；不适用于 15
   英寸机型或其他代际。
@@ -76,3 +80,5 @@ Apple 技术规格页在显示栏写明“13.6 英寸（对角线）LED 背光�
 ## 与其他尺度的关系
 
 345 毫米约为 A4 纸长边 297 毫米的 1.16 倍，也约为成人肩宽 40 厘米的 0.86 倍。它比 15 英寸机型的约 381 毫米对角线短约 36 毫米，适合单肩包携带。[1] 与手机 147.6 毫米高度相比，笔记本屏幕对角线约为其 2.3 倍。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

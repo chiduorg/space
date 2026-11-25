@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 4.73 × 10²⁰ m（约5万光年）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.milky-way
   - space.virgo-cluster
   - space.whirlpool-galaxy
   - space.galaxy-cluster
-  - space.andromeda-galaxy
 reviewStatus: reviewed
 sources:
   - title: The Sombrero Galaxy from Hubble
@@ -27,6 +28,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 采用NASA哈勃资料中约5万光年的横向直径；明亮盘与核球之外的暗弱星晕、尘埃和暗物质范围不计入本页尺度。
 uncertainty: 5万光年是NASA科普资料的概览值；星系近乎侧向，盘厚度与倾角会影响由角尺寸换算出的直径，外围晕的边界也随示踪物不同而变化。
 review:
@@ -41,12 +46,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "galaxy"
-  scene: "space.object"
-  caption: "草帽星系 · 盘面跨度"
-  note: "侧向盘、尘埃带与核球比例经过夸张处理，星点与配色为示意；范围只取主盘概览直径，不含暗弱星晕；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: galaxy
+  scene: space.object
+  caption: 草帽星系 · 盘面跨度
+  note: 侧向盘、尘埃带与核球比例经过夸张处理，星点与配色为示意；范围只取主盘概览直径，不含暗弱星晕；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -72,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 5万光年约为银河系盘直径的一半，约为仙女座星系盘直径的四分之一，约为本星系群跨度1000万光年的0.5%。它比典型星系团小两个数量级，却仍有约2000个球状星团。比较时要把盘的横向直径与星系整体晕的范围分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
