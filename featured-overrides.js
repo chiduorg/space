@@ -130,7 +130,7 @@ function solarSystem(g) {
 
 const builders = {dna, proton, planck, 'solar-system': solarSystem};
 export function createFeaturedOverride(entry) {
-  const id = entry?.legacy?.id;
+  const id = entry?.legacy?.id || (entry?.id === 'space.proton-x10' ? 'proton' : null);
   if (!builders[id]) return null;
   if (!Number.isFinite(entry.quantity?.value) || entry.quantity.value <= 0) throw new RangeError('Featured reference requires a finite positive length');
   const group = new THREE.Group(); group.name = entry.id;

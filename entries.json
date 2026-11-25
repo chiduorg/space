@@ -34,6 +34,37 @@
     ]
   },
   {
+    "id": "space.planck-x3",
+    "title": "普朗克长度 × 3：一次尺度换算",
+    "titleEn": "Planck Length × 3",
+    "summary": "以「普朗克长度」的 1.616×10^-35 m 为基准，按 ×3 换算得到 4.849×10^-35 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "量子与粒子",
+    "displayValue": "4.849×10^-35 m",
+    "quantity": {
+      "value": 4.848765e-35,
+      "unit": "m",
+      "measure": "尺度换算量：space.planck 的 1.616×10^-35 m × 3",
+      "measureLabel": "由「普朗克长度」按 ×3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.planck 的既有量值 1.616×10^-35 m 为基准，倍率 3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "field",
+      "scene": "space.planck",
+      "caption": "普朗克长度 × 3：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
     "id": "space.top-quark",
     "title": "顶夸克约化康普顿波长",
     "titleEn": "Top Quark Compton Wavelength",
@@ -110,6 +141,38 @@
     ]
   },
   {
+    "id": "space.top-quark-x3",
+    "title": "顶夸克约化康普顿波长 × 3：一次尺度换算",
+    "titleEn": "Top Quark Compton Wavelength × 3",
+    "summary": "以「顶夸克约化康普顿波长」的 1.144×10^-18 m 为基准，按 ×3 换算得到 3.431×10^-18 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "量子与粒子",
+    "displayValue": "3.431×10^-18 m",
+    "quantity": {
+      "value": 3.4305803268428376e-18,
+      "unit": "m",
+      "measure": "尺度换算量：space.top-quark 的 1.144×10^-18 m × 3",
+      "measureLabel": "由「顶夸克约化康普顿波长」按 ×3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.top-quark 的既有量值 1.144×10^-18 m 为基准，倍率 3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "wave",
+      "scene": "space.object",
+      "caption": "顶夸克约化康普顿波长 × 3：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#a6b9dc",
+      "referenceAxis": "x",
+      "variant": "reduced"
+    }
+  },
+  {
     "id": "space.higgs-boson",
     "title": "希格斯玻色子康普顿波长",
     "titleEn": "Higgs Boson Compton Wavelength",
@@ -177,6 +240,38 @@
       "波长",
       "原子核"
     ]
+  },
+  {
+    "id": "space.pion-x0p5",
+    "title": "π介子（派介子） × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Pion (Pi Meson) × 0.5",
+    "summary": "以「π介子（派介子）」的 1.414×10^-15 m 为基准，按 ×0.5 换算得到 7.069×10^-16 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "量子与粒子",
+    "displayValue": "7.069×10^-16 m",
+    "quantity": {
+      "value": 7.069084653270654e-16,
+      "unit": "m",
+      "measure": "尺度换算量：space.pion 的 1.414×10^-15 m × 0.5",
+      "measureLabel": "由「π介子（派介子）」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.pion 的既有量值 1.414×10^-15 m 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "wave",
+      "scene": "space.object",
+      "caption": "π介子（派介子） × 0.5（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c9b294",
+      "referenceAxis": "x",
+      "variant": "reduced"
+    }
   },
   {
     "id": "space.neutron",
@@ -554,6 +649,69 @@
     ]
   },
   {
+    "id": "space.proton-x10",
+    "title": "质子与中子 × 10：一次尺度换算",
+    "titleEn": "Proton & Neutron × 10",
+    "summary": "以「质子与中子」的 1.000×10^-15 m 为基准，按 ×10 换算得到 1.000×10^-14 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "原子与分子",
+    "displayValue": "1.000×10^-14 m",
+    "quantity": {
+      "value": 1.0000000000000002e-14,
+      "unit": "m",
+      "measure": "尺度换算量：space.proton 的 1.000×10^-15 m × 10",
+      "measureLabel": "由「质子与中子」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.proton 的既有量值 1.000×10^-15 m 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "nucleus",
+      "scene": "space.proton",
+      "caption": "质子与中子 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
+    "id": "space.iron-nucleus-x100",
+    "title": "铁-56原子核 × 100：一次尺度换算",
+    "titleEn": "Iron-56 Nucleus × 100",
+    "summary": "以「铁-56原子核」的 3.738×10^-15 m 为基准，按 ×100 换算得到 3.738×10^-13 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "原子与分子",
+    "displayValue": "3.738×10^-13 m",
+    "quantity": {
+      "value": 3.7377e-13,
+      "unit": "m",
+      "measure": "尺度换算量：space.iron-nucleus 的 3.738×10^-15 m × 100",
+      "measureLabel": "由「铁-56原子核」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.iron-nucleus 的既有量值 3.738×10^-15 m 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "nucleus",
+      "scene": "space.object",
+      "caption": "铁-56原子核 × 100：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#b0b8ca",
+      "referenceAxis": "x",
+      "variant": "rms"
+    }
+  },
+  {
     "id": "space.gamma-ray",
     "title": "伽马射线",
     "titleEn": "Gamma Ray",
@@ -584,6 +742,38 @@
       "波长",
       "原子与分子"
     ]
+  },
+  {
+    "id": "space.positronium-x0p01",
+    "title": "电子偶素 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Positronium × 0.01",
+    "summary": "以「电子偶素」的 1.058×10^-10 m 为基准，按 ×0.01 换算得到 1.058×10^-12 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "原子与分子",
+    "displayValue": "1.058×10^-12 m",
+    "quantity": {
+      "value": 1.058354421088e-12,
+      "unit": "m",
+      "measure": "尺度换算量：space.positronium 的 1.058×10^-10 m × 0.01",
+      "measureLabel": "由「电子偶素」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.positronium 的既有量值 1.058×10^-10 m 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "atom",
+      "scene": "space.object",
+      "caption": "电子偶素 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#a5bbd4",
+      "referenceAxis": "x",
+      "variant": "positronium"
+    }
   },
   {
     "id": "space.electron-compton",
@@ -622,6 +812,38 @@
     ]
   },
   {
+    "id": "space.electron-compton-x30",
+    "title": "电子康普顿波长 × 30：一次尺度换算",
+    "titleEn": "Electron Compton Wavelength × 30",
+    "summary": "以「电子康普顿波长」的 2.426×10^-12 m 为基准，按 ×30 换算得到 7.279×10^-11 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "原子与分子",
+    "displayValue": "7.279×10^-11 m",
+    "quantity": {
+      "value": 7.27893070614e-11,
+      "unit": "m",
+      "measure": "尺度换算量：space.electron-compton 的 2.426×10^-12 m × 30",
+      "measureLabel": "由「电子康普顿波长」按 ×30 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.electron-compton 的既有量值 2.426×10^-12 m 为基准，倍率 30；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "wave",
+      "scene": "space.object",
+      "caption": "电子康普顿波长 × 30：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#93bddb",
+      "referenceAxis": "x",
+      "variant": "ordinary"
+    }
+  },
+  {
     "id": "space.hydrogen-molecule",
     "title": "氢分子",
     "titleEn": "Hydrogen Molecule",
@@ -652,6 +874,38 @@
       "原子与分子",
       "尺寸"
     ]
+  },
+  {
+    "id": "space.water-molecule-x0p5",
+    "title": "水分子 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Water Molecule × 0.5",
+    "summary": "以「水分子」的 1.514×10^-10 m 为基准，按 ×0.5 换算得到 7.572×10^-11 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "原子与分子",
+    "displayValue": "7.572×10^-11 m",
+    "quantity": {
+      "value": 7.572e-11,
+      "unit": "m",
+      "measure": "尺度换算量：space.water-molecule 的 1.514×10^-10 m × 0.5",
+      "measureLabel": "由「水分子」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.water-molecule 的既有量值 1.514×10^-10 m 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "molecule",
+      "scene": "space.object",
+      "caption": "水分子 × 0.5（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#a4bac1",
+      "referenceAxis": "x",
+      "variant": "water"
+    }
   },
   {
     "id": "space.atom",
@@ -1397,6 +1651,34 @@
       "矿物"
     ],
     "conceptGroup": "crystal"
+  },
+  {
+    "id": "space.dna-x0p3",
+    "title": "DNA 双螺旋 × 0.3（缩小）：一次尺度换算",
+    "titleEn": "DNA Double Helix × 0.3",
+    "summary": "以「DNA 双螺旋」的 2.000×10^-09 m 为基准，按 ×0.3 换算得到 6.000×10^-10 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "原子与分子",
+    "displayValue": "6.000×10^-10 m",
+    "quantity": {
+      "value": 6e-10,
+      "unit": "m",
+      "measure": "尺度换算量：space.dna 的 2.000×10^-09 m × 0.3",
+      "measureLabel": "由「DNA 双螺旋」按 ×0.3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.dna 的既有量值 2.000×10^-09 m 为基准，倍率 0.3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "space.dna",
+      "caption": "DNA 双螺旋 × 0.3（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "space.mos2-monolayer",
@@ -2244,6 +2526,38 @@
       "尺寸",
       "微观"
     ]
+  },
+  {
+    "id": "space.helium-atom-x100",
+    "title": "氦原子 × 100：一次尺度换算",
+    "titleEn": "Helium Atom × 100",
+    "summary": "以「氦原子」的 2.800×10^-10 m 为基准，按 ×100 换算得到 2.800×10^-08 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "原子与分子",
+    "displayValue": "2.800×10^-08 m",
+    "quantity": {
+      "value": 2.8000000000000003e-8,
+      "unit": "m",
+      "measure": "尺度换算量：space.helium-atom 的 2.800×10^-10 m × 100",
+      "measureLabel": "由「氦原子」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.helium-atom 的既有量值 2.800×10^-10 m 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "atom",
+      "scene": "space.object",
+      "caption": "氦原子 × 100：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbadb",
+      "referenceAxis": "x",
+      "variant": "helium"
+    }
   },
   {
     "id": "space.synaptic-cleft",
@@ -3572,6 +3886,34 @@
     ]
   },
   {
+    "id": "space.virus-x1000",
+    "title": "病毒 × 1000：一次尺度换算",
+    "titleEn": "Virus × 1000",
+    "summary": "以「病毒」的 1.000×10^-07 m 为基准，按 ×1000 换算得到 1.000×10^-04 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "生命与人体",
+    "displayValue": "1.000×10^-04 m",
+    "quantity": {
+      "value": 0.00009999999999999999,
+      "unit": "m",
+      "measure": "尺度换算量：space.virus 的 1.000×10^-07 m × 1000",
+      "measureLabel": "由「病毒」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.virus 的既有量值 1.000×10^-07 m 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "space.virus",
+      "caption": "病毒 × 1000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "space.hair",
     "title": "头发丝",
     "titleEn": "Human Hair",
@@ -3737,6 +4079,38 @@
       "尺寸",
       "细胞与微粒"
     ]
+  },
+  {
+    "id": "space.dust-mite-x0p3",
+    "title": "尘螨 × 0.3（缩小）：一次尺度换算",
+    "titleEn": "Dust Mite × 0.3",
+    "summary": "以「尘螨」的 5.000×10^-04 m 为基准，按 ×0.3 换算得到 1.500×10^-04 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "生命与人体",
+    "displayValue": "1.500×10^-04 m",
+    "quantity": {
+      "value": 0.00015,
+      "unit": "m",
+      "measure": "尺度换算量：space.dust-mite 的 5.000×10^-04 m × 0.3",
+      "measureLabel": "由「尘螨」按 ×0.3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.dust-mite 的既有量值 5.000×10^-04 m 为基准，倍率 0.3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "arthropod",
+      "scene": "space.object",
+      "caption": "尘螨 × 0.3（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#b5ab91",
+      "referenceAxis": "x",
+      "variant": "mite"
+    }
   },
   {
     "id": "space.alveolus",
@@ -7711,6 +8085,37 @@
     ]
   },
   {
+    "id": "space.running-shoe-x2",
+    "title": "运动鞋外底长 × 2：一次尺度换算",
+    "titleEn": "Running Shoe Outsole Length × 2",
+    "summary": "以「运动鞋外底长」的 0.29 m 为基准，按 ×2 换算得到 0.58 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "日常与人造",
+    "displayValue": "0.58 m",
+    "quantity": {
+      "value": 0.58,
+      "unit": "m",
+      "measure": "尺度换算量：space.running-shoe 的 0.29 m × 2",
+      "measureLabel": "由「运动鞋外底长」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.running-shoe 的既有量值 0.29 m 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "运动鞋外底长 × 2：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
     "id": "space.violin",
     "title": "小提琴琴身长度",
     "titleEn": "Violin Length",
@@ -8329,6 +8734,38 @@
       "厚度",
       "地球系统"
     ]
+  },
+  {
+    "id": "space.pterosaur-x0p1",
+    "title": "翼龙翼展 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Pterosaur wingspan × 0.1",
+    "summary": "以「翼龙翼展」的 10 m 为基准，按 ×0.1 换算得到 1 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "生命与人体",
+    "displayValue": "1 m",
+    "quantity": {
+      "value": 1,
+      "unit": "m",
+      "measure": "尺度换算量：space.pterosaur 的 10 m × 0.1",
+      "measureLabel": "由「翼龙翼展」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.pterosaur 的既有量值 10 m 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "whale",
+      "scene": "space.object",
+      "caption": "翼龙翼展 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#8d9aa8",
+      "referenceAxis": "x",
+      "variant": "pterosaur"
+    }
   },
   {
     "id": "space.radio-wave",
@@ -10681,6 +11118,38 @@
     ]
   },
   {
+    "id": "space.saber-toothed-cat-x2",
+    "title": "剑齿虎体长 × 2：一次尺度换算",
+    "titleEn": "Sabre-toothed cat body length × 2",
+    "summary": "以「剑齿虎体长」的 2 m 为基准，按 ×2 换算得到 4 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "生命与人体",
+    "displayValue": "4 m",
+    "quantity": {
+      "value": 4,
+      "unit": "m",
+      "measure": "尺度换算量：space.saber-toothed-cat 的 2 m × 2",
+      "measureLabel": "由「剑齿虎体长」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.saber-toothed-cat 的既有量值 2 m 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "whale",
+      "scene": "space.object",
+      "caption": "剑齿虎体长 × 2：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#a08a72",
+      "referenceAxis": "x",
+      "variant": "sabertooth"
+    }
+  },
+  {
     "id": "space.shark",
     "title": "大白鲨",
     "titleEn": "Great White Shark",
@@ -11237,6 +11706,37 @@
     ]
   },
   {
+    "id": "space.jwst-mirror-x3",
+    "title": "韦布主镜 × 3：一次尺度换算",
+    "titleEn": "James Webb Space Telescope Primary Mirror × 3",
+    "summary": "以「韦布主镜」的 6.5 m 为基准，按 ×3 换算得到 19.5 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "日常与人造",
+    "displayValue": "19.5 m",
+    "quantity": {
+      "value": 19.5,
+      "unit": "m",
+      "measure": "尺度换算量：space.jwst-mirror 的 6.5 m × 3",
+      "measureLabel": "由「韦布主镜」按 ×3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.jwst-mirror 的既有量值 6.5 m 为基准，倍率 3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "mirror",
+      "scene": "space.object",
+      "caption": "韦布主镜 × 3：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
     "id": "space.baobab",
     "title": "猴面包树高度",
     "titleEn": "Baobab height",
@@ -11667,6 +12167,38 @@
     ]
   },
   {
+    "id": "space.human-x30",
+    "title": "人类 × 30：一次尺度换算",
+    "titleEn": "Human × 30",
+    "summary": "以「人类」的 1.7 m 为基准，按 ×30 换算得到 51 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "日常与人造",
+    "displayValue": "51 m",
+    "quantity": {
+      "value": 51,
+      "unit": "m",
+      "measure": "尺度换算量：space.human 的 1.7 m × 30",
+      "measureLabel": "由「人类」按 ×30 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.human 的既有量值 1.7 m 为基准，倍率 30；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "human",
+      "scene": "space.human",
+      "caption": "人类 × 30：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#8fa3ad",
+      "referenceAxis": "y",
+      "variant": "adult"
+    }
+  },
+  {
     "id": "space.boeing-747",
     "title": "波音 747",
     "titleEn": "Boeing 747-8",
@@ -11833,6 +12365,38 @@
       "尺寸",
       "建筑与地貌"
     ]
+  },
+  {
+    "id": "space.mariana-trench-x0p01",
+    "title": "马里亚纳海沟 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Mariana Trench × 0.01",
+    "summary": "以「马里亚纳海沟」的 10,935 m 为基准，按 ×0.01 换算得到 109.35 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "地球与地质",
+    "displayValue": "109.35 m",
+    "quantity": {
+      "value": 109.35000000000001,
+      "unit": "m",
+      "measure": "尺度换算量：space.mariana-trench 的 10,935 m × 0.01",
+      "measureLabel": "由「马里亚纳海沟」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.mariana-trench 的既有量值 10,935 m 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "terrain",
+      "scene": "space.object",
+      "caption": "马里亚纳海沟 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#1c4f6b",
+      "referenceAxis": "y",
+      "variant": "elevation"
+    }
   },
   {
     "id": "space.redwood",
@@ -12263,6 +12827,37 @@
       "厚度",
       "地球系统"
     ]
+  },
+  {
+    "id": "space.african-lion-x1000",
+    "title": "非洲狮头体长 × 1000：一次尺度换算",
+    "titleEn": "African Lion Head-Body Length × 1000",
+    "summary": "以「非洲狮头体长」的 2 m 为基准，按 ×1000 换算得到 2,000 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "生命与人体",
+    "displayValue": "2,000 m（约 2 km）",
+    "quantity": {
+      "value": 2000,
+      "unit": "m",
+      "measure": "尺度换算量：space.african-lion 的 2 m × 1000",
+      "measureLabel": "由「非洲狮头体长」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.african-lion 的既有量值 2 m 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "whale",
+      "scene": "space.object",
+      "caption": "非洲狮头体长 × 1000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
   },
   {
     "id": "space.deccan-traps",
@@ -12896,6 +13491,69 @@
     ]
   },
   {
+    "id": "space.everest-x10",
+    "title": "珠穆朗玛峰 × 10：一次尺度换算",
+    "titleEn": "Mount Everest × 10",
+    "summary": "以「珠穆朗玛峰」的 8,848.86 m 为基准，按 ×10 换算得到 88,488.6 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "地球与地质",
+    "displayValue": "88,488.6 m（约 88.4886 km）",
+    "quantity": {
+      "value": 88488.6,
+      "unit": "m",
+      "measure": "尺度换算量：space.everest 的 8,848.86 m × 10",
+      "measureLabel": "由「珠穆朗玛峰」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.everest 的既有量值 8,848.86 m 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "terrain",
+      "scene": "space.object",
+      "caption": "珠穆朗玛峰 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#8b8d80",
+      "referenceAxis": "y",
+      "variant": "elevation"
+    }
+  },
+  {
+    "id": "space.black-hole-event-horizon-x3",
+    "title": "恒星级黑洞事件视界 × 3：一次尺度换算",
+    "titleEn": "Stellar-Mass Black Hole Event Horizon × 3",
+    "summary": "以「恒星级黑洞事件视界」的 29,500 m 为基准，按 ×3 换算得到 88,500 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "恒星与星际",
+    "displayValue": "88,500 m（约 88.5 km）",
+    "quantity": {
+      "value": 88500,
+      "unit": "m",
+      "measure": "尺度换算量：space.black-hole-event-horizon 的 29,500 m × 3",
+      "measureLabel": "由「恒星级黑洞事件视界」按 ×3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.black-hole-event-horizon 的既有量值 29,500 m 为基准，倍率 3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "恒星级黑洞事件视界 × 3：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
     "id": "space.atmosphere",
     "title": "地球大气层",
     "titleEn": "Atmosphere of Earth",
@@ -13090,6 +13748,37 @@
       "尺寸",
       "地质"
     ]
+  },
+  {
+    "id": "space.city-x2",
+    "title": "城市 × 2：一次尺度换算",
+    "titleEn": "City × 2",
+    "summary": "以「城市」的 1.000×10^05 m 为基准，按 ×2 换算得到 2.000×10^05 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "地球与地质",
+    "displayValue": "2.000×10^05 m（约 200 km）",
+    "quantity": {
+      "value": 200000,
+      "unit": "m",
+      "measure": "尺度换算量：space.city 的 1.000×10^05 m × 2",
+      "measureLabel": "由「城市」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.city 的既有量值 1.000×10^05 m 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "terrain",
+      "scene": "space.earth",
+      "caption": "城市 × 2：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
   },
   {
     "id": "space.psyche",
@@ -13620,6 +14309,34 @@
     ]
   },
   {
+    "id": "space.earth-x0p1",
+    "title": "地球 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Earth × 0.1",
+    "summary": "以「地球」的 1.274×10^07 m 为基准，按 ×0.1 换算得到 1.274×10^06 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "行星与太阳系",
+    "displayValue": "1.274×10^06 m（约 1,274.2 km）",
+    "quantity": {
+      "value": 1274200,
+      "unit": "m",
+      "measure": "尺度换算量：space.earth 的 1.274×10^07 m × 0.1",
+      "measureLabel": "由「地球」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.earth 的既有量值 1.274×10^07 m 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "space.earth",
+      "caption": "地球 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "space.san-andreas-fault",
     "title": "圣安德烈斯断层长度",
     "titleEn": "San Andreas Fault Length",
@@ -13812,6 +14529,37 @@
       "尺寸",
       "行星与地理"
     ]
+  },
+  {
+    "id": "space.red-dwarf-x0p01",
+    "title": "红矮星 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Red Dwarf × 0.01",
+    "summary": "以「红矮星」的 2.097×10^08 m 为基准，按 ×0.01 换算得到 2.097×10^06 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "恒星与星际",
+    "displayValue": "2.097×10^06 m（约 2,097 km）",
+    "quantity": {
+      "value": 2097000,
+      "unit": "m",
+      "measure": "尺度换算量：space.red-dwarf 的 2.097×10^08 m × 0.01",
+      "measureLabel": "由「红矮星」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.red-dwarf 的既有量值 2.097×10^08 m 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "sphere",
+      "scene": "space.object",
+      "caption": "红矮星 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
   },
   {
     "id": "space.great-barrier-reef",
@@ -14577,6 +15325,37 @@
     ]
   },
   {
+    "id": "space.pacific-ocean-x0p5",
+    "title": "太平洋 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Pacific Ocean × 0.5",
+    "summary": "以「太平洋」的 1.930×10^07 m 为基准，按 ×0.5 换算得到 9.650×10^06 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "地球与地质",
+    "displayValue": "9.650×10^06 m（约 9,650 km）",
+    "quantity": {
+      "value": 9650000,
+      "unit": "m",
+      "measure": "尺度换算量：space.pacific-ocean 的 1.930×10^07 m × 0.5",
+      "measureLabel": "由「太平洋」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.pacific-ocean 的既有量值 1.930×10^07 m 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "terrain",
+      "scene": "space.earth",
+      "caption": "太平洋 × 0.5（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
     "id": "space.venus",
     "title": "金星",
     "titleEn": "Venus",
@@ -14808,6 +15587,38 @@
     ]
   },
   {
+    "id": "space.earth-moon-distance-x0p1",
+    "title": "地球到月球距离 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Earth-Moon Distance × 0.1",
+    "summary": "以「地球到月球距离」的 3.844×10^08 m 为基准，按 ×0.1 换算得到 3.844×10^07 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "行星与太阳系",
+    "displayValue": "3.844×10^07 m（约 38,440 km）",
+    "quantity": {
+      "value": 38440000,
+      "unit": "m",
+      "measure": "尺度换算量：space.earth-moon-distance 的 3.844×10^08 m × 0.1",
+      "measureLabel": "由「地球到月球距离」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.earth-moon-distance 的既有量值 3.844×10^08 m 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "distance",
+      "scene": "space.object",
+      "caption": "地球到月球距离 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#a1b5c4",
+      "referenceAxis": "x",
+      "variant": "centers"
+    }
+  },
+  {
     "id": "space.neptune",
     "title": "海王星",
     "titleEn": "Neptune",
@@ -14839,6 +15650,37 @@
       "行星与地理"
     ],
     "conceptGroup": "neptune"
+  },
+  {
+    "id": "space.solar-flare-size-x0p5",
+    "title": "太阳耀斑 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Solar Flare × 0.5",
+    "summary": "以「太阳耀斑」的 1.000×10^08 m 为基准，按 ×0.5 换算得到 5.000×10^07 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "恒星与星际",
+    "displayValue": "5.000×10^07 m（约 50,000 km）",
+    "quantity": {
+      "value": 50000000,
+      "unit": "m",
+      "measure": "尺度换算量：space.solar-flare-size 的 1.000×10^08 m × 0.5",
+      "measureLabel": "由「太阳耀斑」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.solar-flare-size 的既有量值 1.000×10^08 m 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "太阳耀斑 × 0.5（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
   },
   {
     "id": "space.uranus",
@@ -14969,6 +15811,38 @@
       "行星与地理"
     ],
     "conceptGroup": "sun"
+  },
+  {
+    "id": "space.moon_diameter-x30",
+    "title": "月球直径 × 30：一次尺度换算",
+    "titleEn": "Moon Diameter × 30",
+    "summary": "以「月球直径」的 3.475×10^06 m 为基准，按 ×30 换算得到 1.042×10^08 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "行星与太阳系",
+    "displayValue": "1.042×10^08 m（约 104,244 km）",
+    "quantity": {
+      "value": 104244000,
+      "unit": "m",
+      "measure": "尺度换算量：space.moon_diameter 的 3.475×10^06 m × 30",
+      "measureLabel": "由「月球直径」按 ×30 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.moon_diameter 的既有量值 3.475×10^06 m 为基准，倍率 30；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "sphere",
+      "scene": "space.object",
+      "caption": "月球直径 × 30：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#b8b9b5",
+      "referenceAxis": "x",
+      "variant": "moon"
+    }
   },
   {
     "id": "space.saturn",
@@ -15316,6 +16190,99 @@
     "conceptGroup": "sun"
   },
   {
+    "id": "space.brown-dwarf-x10",
+    "title": "褐矮星 × 10：一次尺度换算",
+    "titleEn": "Brown Dwarf × 10",
+    "summary": "以「褐矮星」的 1.398×10^08 m 为基准，按 ×10 换算得到 1.398×10^09 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "恒星与星际",
+    "displayValue": "1.398×10^09 m（约 1.398e+06 km）",
+    "quantity": {
+      "value": 1398000000,
+      "unit": "m",
+      "measure": "尺度换算量：space.brown-dwarf 的 1.398×10^08 m × 10",
+      "measureLabel": "由「褐矮星」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.brown-dwarf 的既有量值 1.398×10^08 m 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "sphere",
+      "scene": "space.object",
+      "caption": "褐矮星 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
+    "id": "space.jupiter-x30",
+    "title": "木星 × 30：一次尺度换算",
+    "titleEn": "Jupiter × 30",
+    "summary": "以「木星」的 1.398×10^08 m 为基准，按 ×30 换算得到 4.195×10^09 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "行星与太阳系",
+    "displayValue": "4.195×10^09 m（约 4.19466e+06 km）",
+    "quantity": {
+      "value": 4194660000,
+      "unit": "m",
+      "measure": "尺度换算量：space.jupiter 的 1.398×10^08 m × 30",
+      "measureLabel": "由「木星」按 ×30 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.jupiter 的既有量值 1.398×10^08 m 为基准，倍率 30；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "planet-environment",
+      "scene": "space.jupiter",
+      "caption": "木星 × 30：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
+    "id": "space.sagittarius-a-star-x0p3",
+    "title": "人马座 A* × 0.3（缩小）：一次尺度换算",
+    "titleEn": "Sagittarius A* × 0.3",
+    "summary": "以「人马座 A*」的 2.400×10^10 m 为基准，按 ×0.3 换算得到 7.200×10^09 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "恒星与星际",
+    "displayValue": "7.200×10^09 m（约 7.2e+06 km）",
+    "quantity": {
+      "value": 7200000000,
+      "unit": "m",
+      "measure": "尺度换算量：space.sagittarius-a-star 的 2.400×10^10 m × 0.3",
+      "measureLabel": "由「人马座 A*」按 ×0.3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.sagittarius-a-star 的既有量值 2.400×10^10 m 为基准，倍率 0.3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "galaxy",
+      "scene": "space.object",
+      "caption": "人马座 A* × 0.3（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
     "id": "space.wolf-rayet-star",
     "title": "沃尔夫–拉叶星",
     "titleEn": "Wolf-Rayet Star",
@@ -15527,6 +16494,38 @@
     ]
   },
   {
+    "id": "space.light-second-x1000",
+    "title": "光行进一秒 × 1000：一次尺度换算",
+    "titleEn": "Light Second × 1000",
+    "summary": "以「光行进一秒」的 2.998×10^08 m 为基准，按 ×1000 换算得到 2.998×10^11 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "行星与太阳系",
+    "displayValue": "2.998×10^11 m（约 2.99792e+08 km）",
+    "quantity": {
+      "value": 299792458000,
+      "unit": "m",
+      "measure": "尺度换算量：space.light-second 的 2.998×10^08 m × 1000",
+      "measureLabel": "由「光行进一秒」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.light-second 的既有量值 2.998×10^08 m 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "wave",
+      "scene": "space.object",
+      "caption": "光行进一秒 × 1000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#a3d6df",
+      "referenceAxis": "x",
+      "variant": "light"
+    }
+  },
+  {
     "id": "space.red-giant",
     "title": "红巨星",
     "titleEn": "Red Giant",
@@ -15628,6 +16627,38 @@
       "尺寸",
       "恒星与行星系"
     ]
+  },
+  {
+    "id": "space.asteroid-belt-x10",
+    "title": "小行星带 × 10：一次尺度换算",
+    "titleEn": "Asteroid Belt × 10",
+    "summary": "以「小行星带」的 1.500×10^11 m 为基准，按 ×10 换算得到 1.500×10^12 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "行星与太阳系",
+    "displayValue": "1.500×10^12 m（约 1.5e+09 km）",
+    "quantity": {
+      "value": 1500000000000,
+      "unit": "m",
+      "measure": "尺度换算量：space.asteroid-belt 的 1.500×10^11 m × 10",
+      "measureLabel": "由「小行星带」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.asteroid-belt 的既有量值 1.500×10^11 m 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "orbital-system",
+      "scene": "space.object",
+      "caption": "小行星带 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#7fa8c4",
+      "referenceAxis": "x",
+      "variant": "belt"
+    }
   },
   {
     "id": "space.kuiper-belt",
@@ -15869,6 +16900,37 @@
     ]
   },
   {
+    "id": "space.solar-system-x100",
+    "title": "太阳系 × 100：一次尺度换算",
+    "titleEn": "Solar System × 100",
+    "summary": "以「太阳系」的 9.000×10^12 m 为基准，按 ×100 换算得到 9.000×10^14 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "行星与太阳系",
+    "displayValue": "9.000×10^14 m（约 9e+11 km）",
+    "quantity": {
+      "value": 900000000000000,
+      "unit": "m",
+      "measure": "尺度换算量：space.solar-system 的 9.000×10^12 m × 100",
+      "measureLabel": "由「太阳系」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.solar-system 的既有量值 9.000×10^12 m 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "distance",
+      "scene": "space.solar-system",
+      "caption": "太阳系 × 100：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
     "id": "space.local-bubble",
     "title": "本地泡",
     "titleEn": "Local Bubble",
@@ -15935,6 +16997,37 @@
       "距离",
       "星际"
     ]
+  },
+  {
+    "id": "space.m87-black-hole-x100",
+    "title": "M87* × 100：一次尺度换算",
+    "titleEn": "M87* × 100",
+    "summary": "以「M87*」的 3.800×10^13 m 为基准，按 ×100 换算得到 3.800×10^15 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "恒星与星际",
+    "displayValue": "3.800×10^15 m（约 3.8e+12 km）",
+    "quantity": {
+      "value": 3800000000000000,
+      "unit": "m",
+      "measure": "尺度换算量：space.m87-black-hole 的 3.800×10^13 m × 100",
+      "measureLabel": "由「M87*」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.m87-black-hole 的既有量值 3.800×10^13 m 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "galaxy",
+      "scene": "space.object",
+      "caption": "M87* × 100：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
   },
   {
     "id": "space.light-year",
@@ -16426,6 +17519,38 @@
     ]
   },
   {
+    "id": "space.milky_way_disk-x0p01",
+    "title": "银河系银盘直径 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Milky Way Disk Diameter × 0.01",
+    "summary": "以「银河系银盘直径」的 9.461×10^20 m 为基准，按 ×0.01 换算得到 9.461×10^18 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "星系与宇宙",
+    "displayValue": "9.461×10^18 m（约 9.46073e+15 km）",
+    "quantity": {
+      "value": 9460730472580800000,
+      "unit": "m",
+      "measure": "尺度换算量：space.milky_way_disk 的 9.461×10^20 m × 0.01",
+      "measureLabel": "由「银河系银盘直径」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.milky_way_disk 的既有量值 9.461×10^20 m 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "galaxy",
+      "scene": "space.object",
+      "caption": "银河系银盘直径 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#93acc8",
+      "referenceAxis": "x",
+      "variant": "spiral"
+    }
+  },
+  {
     "id": "space.small-magellanic-cloud",
     "title": "小麦哲伦云",
     "titleEn": "Small Magellanic Cloud",
@@ -16487,6 +17612,38 @@
       "星系与宇宙",
       "距离"
     ]
+  },
+  {
+    "id": "space.triangulum-galaxy-x0p3",
+    "title": "三角座星系 × 0.3（缩小）：一次尺度换算",
+    "titleEn": "Triangulum Galaxy × 0.3",
+    "summary": "以「三角座星系」的 5.676×10^20 m 为基准，按 ×0.3 换算得到 1.703×10^20 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "星系与宇宙",
+    "displayValue": "1.703×10^20 m（约 1.70293e+17 km）",
+    "quantity": {
+      "value": 170293148506454400000,
+      "unit": "m",
+      "measure": "尺度换算量：space.triangulum-galaxy 的 5.676×10^20 m × 0.3",
+      "measureLabel": "由「三角座星系」按 ×0.3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.triangulum-galaxy 的既有量值 5.676×10^20 m 为基准，倍率 0.3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "galaxy",
+      "scene": "space.object",
+      "caption": "三角座星系 × 0.3（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bb6d1",
+      "referenceAxis": "x",
+      "variant": "spiral"
+    }
   },
   {
     "id": "space.galactic-center",
@@ -17149,6 +18306,37 @@
     ]
   },
   {
+    "id": "space.virgo-cluster-x2",
+    "title": "室女座星系团 × 2：一次尺度换算",
+    "titleEn": "Virgo Cluster × 2",
+    "summary": "以「室女座星系团」的 1.080×10^23 m 为基准，按 ×2 换算得到 2.160×10^23 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "星系与宇宙",
+    "displayValue": "2.160×10^23 m（约 2.15969e+20 km）",
+    "quantity": {
+      "value": 2.159694e+23,
+      "unit": "m",
+      "measure": "尺度换算量：space.virgo-cluster 的 1.080×10^23 m × 2",
+      "measureLabel": "由「室女座星系团」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.virgo-cluster 的既有量值 1.080×10^23 m 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "cluster",
+      "scene": "space.object",
+      "caption": "室女座星系团 × 2：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
+  },
+  {
     "id": "space.virgo-supercluster",
     "title": "室女座超星系团",
     "titleEn": "Virgo Supercluster",
@@ -17445,6 +18633,34 @@
     ]
   },
   {
+    "id": "space.observable-universe-x0p1",
+    "title": "可观测宇宙 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Observable Universe × 0.1",
+    "summary": "以「可观测宇宙」的 8.800×10^26 m 为基准，按 ×0.1 换算得到 8.800×10^25 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "星系与宇宙",
+    "displayValue": "8.800×10^25 m（约 8.8e+22 km）",
+    "quantity": {
+      "value": 8.8e+25,
+      "unit": "m",
+      "measure": "尺度换算量：space.observable-universe 的 8.800×10^26 m × 0.1",
+      "measureLabel": "由「可观测宇宙」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.observable-universe 的既有量值 8.800×10^26 m 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "space.observable-universe",
+      "caption": "可观测宇宙 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "space.hubble-radius",
     "title": "哈勃半径",
     "titleEn": "Hubble Radius",
@@ -17535,6 +18751,37 @@
       "星系与宇宙",
       "距离"
     ]
+  },
+  {
+    "id": "space.cosmic-web-x1000",
+    "title": "宇宙网 × 1000：一次尺度换算",
+    "titleEn": "Cosmic Web × 1000",
+    "summary": "以「宇宙网」的 2.314×10^24 m 为基准，按 ×1000 换算得到 2.314×10^27 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "length",
+    "category": "星系与宇宙",
+    "displayValue": "2.314×10^27 m（约 2.31426e+24 km）",
+    "quantity": {
+      "value": 2.314258e+27,
+      "unit": "m",
+      "measure": "尺度换算量：space.cosmic-web 的 2.314×10^24 m × 1000",
+      "measureLabel": "由「宇宙网」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 space.cosmic-web 的既有量值 2.314×10^24 m 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "field",
+      "scene": "space.object",
+      "caption": "宇宙网 × 1000：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9bbcd7",
+      "referenceAxis": "x"
+    }
   },
   {
     "id": "space.chlorophyll",
