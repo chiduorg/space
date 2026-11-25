@@ -23,7 +23,7 @@ sources:
     publisher: National Snow and Ice Data Center
     accessed: '2026-11-23'
   - title: Antarctic Ice Sheet
-    url: 'https://science.nasa.gov/earth/earth-atmosphere/ice-sheets/'
+    url: 'https://science.nasa.gov/earth/explore/earth-indicators/ice-sheets/'
     publisher: NASA Science
     accessed: '2026-11-23'
   - title: 'SI base unit: metre (m)'
@@ -79,3 +79,10 @@ tags:
 把厚度换算成冰量，还要乘上面积与冰密度：南极冰盖面积约 1,400 万平方公里，平均 1.9 公里只说明垂直尺度，不能直接当成全球海平面贡献。[1][2] 边缘冰流会把冰快速送入海洋，因此同样的平均厚度可以对应不同的质量损失路径。
 
 本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1900 米，换算后是 1.9 千米；约 1.49×10⁻⁴ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10³ 量级附近。
+
+读图时先看量级，再看倍数：10³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -36,9 +36,9 @@ sources:
     url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html"
     publisher: "NASA NSSDC"
     accessed: '2026-11-24'
-  - title: "Earth's Moon — By the Numbers"
-    url: "https://solarsystem.nasa.gov/moons/earths-moon/by-the-numbers/"
-    publisher: "NASA Solar System Exploration"
+  - title: "Moon Facts"
+    url: "https://science.nasa.gov/moon/facts/"
+    publisher: "NASA Science"
     accessed: '2026-11-24'
 legacy:
   id: light-second

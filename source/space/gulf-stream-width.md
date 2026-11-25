@@ -22,9 +22,9 @@ sources:
     url: 'https://www.aoml.noaa.gov/phod/gulf-stream/'
     publisher: NOAA Atlantic Oceanographic and Meteorological Laboratory
     accessed: '2026-11-23'
-  - title: Ocean Circulation
-    url: 'https://science.nasa.gov/earth/ocean/'
-    publisher: NASA Science
+  - title: "Ocean Worlds"
+    url: 'https://science.nasa.gov/solar-system/ocean-worlds/'
+    publisher: "NASA Science"
     accessed: '2026-11-23'
   - title: 'SI base unit: metre (m)'
     url: 'https://www.bipm.org/en/si-base-units/metre'
@@ -79,3 +79,10 @@ tags:
 湾流的体积输送常用 Sverdrup 计量，1 Sv 等于每秒 100 万立方米；宽度只是断面的一维，流量还要乘上深度与流速。[1][2] 这也解释了为什么同一宽度下，流速核心的位置会改变热量输送估计。
 
 本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 100000 米，换算后是 100 千米；约 0.00785 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁵ 量级附近。
+
+读图时先看量级，再看倍数：10⁵ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

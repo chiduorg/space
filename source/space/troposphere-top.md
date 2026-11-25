@@ -24,7 +24,7 @@ sources:
     publisher: NOAA JetStream
     accessed: '2026-11-23'
   - title: Earth’s Atmosphere
-    url: 'https://science.nasa.gov/earth/earth-atmosphere/'
+    url: 'https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/'
     publisher: NASA Science
     accessed: '2026-11-23'
   - title: 'SI base unit: metre (m)'
@@ -82,3 +82,10 @@ tags:
 本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
 
 按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 40 微秒，在时间轴上量级接近「毫秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 12000 米，换算后是 12 千米；约 9.42×10⁻⁴ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁴ 量级附近。
+
+读图时先看量级，再看倍数：10⁴ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

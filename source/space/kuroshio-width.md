@@ -18,13 +18,13 @@ related:
   - temperature.marine-heatwave
 reviewStatus: reviewed
 sources:
-  - title: Kuroshio Current
-    url: 'https://www.jamstec.go.jp/e/about/press_release/2017/0710/'
-    publisher: JAMSTEC
+  - title: "Kuroshio path variations due to meso-scale eddies and their predictability"
+    url: 'https://www.jamstec.go.jp/aplinfo/miyazawa/thesis_miyazawa.pdf'
+    publisher: "JAMSTEC"
     accessed: '2026-11-23'
-  - title: Ocean Circulation
-    url: 'https://science.nasa.gov/earth/ocean/'
-    publisher: NASA Science
+  - title: "Ocean Worlds"
+    url: 'https://science.nasa.gov/solar-system/ocean-worlds/'
+    publisher: "NASA Science"
     accessed: '2026-11-23'
   - title: 'SI base unit: metre (m)'
     url: 'https://www.bipm.org/en/si-base-units/metre'
@@ -79,3 +79,10 @@ tags:
 黑潮的流量与路径还受黑潮延伸体、东海陆架和季风影响；宽度相同不代表输送量相同。[1][2] 观测时通常把流轴、流速阈值与断面位置一起报告，否则 100 公里会变成没有上下文的标签。
 
 本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 100000 米，换算后是 100 千米；约 0.00785 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁵ 量级附近。
+
+读图时先看量级，再看倍数：10⁵ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

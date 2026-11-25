@@ -19,9 +19,9 @@ related:
   - time.microsecond
 reviewStatus: reviewed
 sources:
-  - title: 'Tectonics of the Deccan Large Igneous Province: an introduction'
-    url: 'https://www.geos.iitb.ac.in/images/stories/pdf/sm_ptectonicsdlp.pdf'
-    publisher: Indian Institute of Technology Bombay
+  - title: "Tectonics of the Deccan Large Igneous Province: an introduction"
+    url: 'https://hal.science/hal-01697291'
+    publisher: "HAL / Geological Society, London"
     accessed: '2026-11-07'
   - title: Deccan Traps
     url: 'https://www.britannica.com/place/Deccan-Traps'

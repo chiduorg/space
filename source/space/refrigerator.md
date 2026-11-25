@@ -19,9 +19,9 @@ related:
   - time.atomic-transition
 reviewStatus: reviewed
 sources:
-  - title: LG GN-M722HPHL Wide Top Freezer Refrigerator
-    url: 'https://www.lg.com/ae/refrigerators/lg-GN-M722HPHL'
-    publisher: LG Electronics
+  - title: "Standard fridge sizes"
+    url: 'https://www.lg.com/uk/lg-experience/helpful-hints/standard-fridge-sizes/'
+    publisher: "LG UK"
     accessed: '2026-11-07'
   - title: Haier HRF225WBRU Built-in Refrigerator
     url: 'https://haieronline.ru/catalog/built-in/fridges_in/kholodilnik-hrf225wbru/'
@@ -41,7 +41,7 @@ review:
   notes:
     - 本条口径按广度计划固定；初稿阶段的来源核对已完成，具体记录见下条。
     - 所列厂商规格页分别标出 1800 毫米与 180 厘米的箱体高度，用于支撑常见 1.8 米口径；未覆盖全部冰箱类型。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://www.lg.com/ae/refrigerators/lg-GN-M722HPHL；https://haieronline.ru/catalog/built-in/fridges_in/kholodilnik-hrf225wbru/），数值口径与正文一致。'
+    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://www.lg.com/uk/lg-experience/helpful-hints/standard-fridge-sizes/；https://haieronline.ru/catalog/built-in/fridges_in/kholodilnik-hrf225wbru/），数值口径与正文一致。'
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对

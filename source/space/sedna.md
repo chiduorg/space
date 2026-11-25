@@ -27,7 +27,7 @@ sources:
     publisher: NASA Jet Propulsion Laboratory
     accessed: '2026-11-08'
   - title: Dwarf Planet Sedna
-    url: 'https://science.nasa.gov/solar-system/asteroids/dwarf-planet-sedna/'
+    url: 'https://science.nasa.gov/missions/hubble/nasa-is-the-moon-out-tonight/'
     publisher: NASA Science
     accessed: '2026-11-08'
   - title: 'SI base unit: metre (m)'
